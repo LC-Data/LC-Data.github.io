@@ -13,7 +13,7 @@ body {
   color: #fff;
   text-align: center;
   background-color: #ff00ff;
-  background-image: linear-gradient(140deg, #1a001a, #2b002b); 
+  background-image: linear-gradient(140deg, #1a001a, #000000); 
   height: 100%;
 }
 
