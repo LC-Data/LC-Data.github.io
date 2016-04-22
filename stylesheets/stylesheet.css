@@ -5,11 +5,15 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #e4d6e4; }
+  color: #e4d6e4; 
+  
+}
 
 .page-header {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #000000, #660066); }
+  background-image: linear-gradient(120deg, #000000, #660066); 
+  height: 500px;
+}
 
