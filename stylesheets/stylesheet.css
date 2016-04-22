@@ -1,13 +1,14 @@
 
 body {
   margin: 0;
+  height: 100%;
   width: 100%;
   font-size: 19px;
   line-height: 1.5;
   background-color: #e4d6e4; 
 }
 
-page-header {
+.page-header {
   color: #fff;
   text-align: center;
   background-color: #64546b;
