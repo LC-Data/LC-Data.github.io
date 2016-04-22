@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 
 body {
   padding: 0;
@@ -6,10 +16,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #e4d6e4; 
-  
 }
 
 .page-header {
+  height: 100%;
   color: #fff;
   text-align: center;
   background-color: #159957;
