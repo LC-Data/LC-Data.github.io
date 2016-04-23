@@ -7,7 +7,9 @@ body {
 }
 
 .pictureContainer img {
-    width: 2200px;
+    height: 310px;
+    overflow: hidden;
+    width: 1900px;
     transform: translate3d(0px, 0px, 0px);
     transition: transform 1s ease-in-out;
 }
