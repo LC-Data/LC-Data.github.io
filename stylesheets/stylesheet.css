@@ -11,7 +11,7 @@ body {
     overflow: hidden;
     width: 1900px;
     transform: translate3d(0px, 0px, 0px);
-    transition: transform 1s ease-in-out;
+    transition: transform 1.5s ease-in-out;
 }
 .pictureContainer img:hover {
     transform: translate3d(-300px, 0px, 0px);
