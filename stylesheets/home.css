@@ -25,6 +25,7 @@ body {
 
 
 #pictureText {
+  width: 100%;
   margin-left: 18px;
   font-style: "Times New Roman";
   text-shadow: 2px 2px #7c6789;
