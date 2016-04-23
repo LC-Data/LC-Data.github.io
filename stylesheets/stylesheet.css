@@ -16,6 +16,7 @@ body {
 }
 
 .pictureContainer {
+  margin-bottom: 35px;
   float: left;
   height: 310px;
   overflow: hidden;
@@ -34,7 +35,6 @@ body {
 }
 
 #menu {
-  margin-top: auto;
   width: 100%;
   color: white;
   height: 35px;
