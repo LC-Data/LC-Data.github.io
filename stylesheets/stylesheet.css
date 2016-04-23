@@ -81,11 +81,11 @@ ul {
 }
 
 li {
+  height: 100%;
   display: inline-block;
 }
 
 li a {
-  height: 100%;
   transition: all 1s ease;
   display: inline-block;
   color: white;
