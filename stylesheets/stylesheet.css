@@ -57,7 +57,7 @@ body {
 }
 
 #menu:hover {
-  background-color: green;
+  background-color: #ffe6ff;
   cursor: pointer;
   -webkit-transition: background-color 2s ease-out;
   -moz-transition: background-color 2s ease-out;
