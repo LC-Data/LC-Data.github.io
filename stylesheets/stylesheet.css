@@ -33,3 +33,10 @@ body {
   border-left: 2px solid gray;
   border-right: 2px solid gray;
 }
+
+#menu {
+  width: 100%;
+  color: white;
+  height: 35px;
+  
+}
