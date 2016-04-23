@@ -52,8 +52,7 @@ body {
   text-align: center;
   overflow: auto;
   background-color: #edf1f0;
-  border-top: 1px solid white;
-  border-bottom: 1px solid gray;
+  border: 1px solid white;
   width: auto;
   color: purple;
   font-size: 25px;
