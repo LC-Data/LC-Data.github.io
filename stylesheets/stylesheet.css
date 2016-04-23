@@ -24,3 +24,8 @@ body {
     width: 100%;
 
 }
+
+corset {
+  margin: 100px;
+  background: #999999;
+}
