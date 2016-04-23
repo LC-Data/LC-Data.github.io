@@ -24,8 +24,9 @@ body {
 }
 
 #pictureText {
-  margin-left: 10px;
+  margin-left: 15px;
   font-style: "Times New Roman";
+  text-shadow: 1px 1px #7c6789;
   z-index: 100;
   position: absolute;
   color: white;
