@@ -57,7 +57,6 @@ body {
   color: purple;
   font-size: 25px;
   height: 35px;
-  text-align: center;
 }
 
 
@@ -89,7 +88,7 @@ li a {
   height: 100%;
   transition: all 1s ease;
   display: inline-block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 1px 35px;
   text-decoration: none;
