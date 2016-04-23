@@ -132,6 +132,7 @@ li a:hover {
 }
 
 #inner2 { 
+  float: right;
   margin-left: 49%;
   padding: 5px;
   width: 48%;
