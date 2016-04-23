@@ -1,4 +1,5 @@
 body {
+  padding: 1px;
   margin: 0px;
   background-color: #fff5d7; 
   color: orange;
@@ -24,6 +25,7 @@ body {
 }
 
 #corset {
+  padding: 1px;
   margin-left: 100px;
   margin-right: 100px;
   background: #fefacb;
