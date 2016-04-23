@@ -6,6 +6,7 @@ body {
 
 
 .pictureContainer img {
+  z-index: -1;
   opacity: 0.65;
   height: 230px;
   overflow: hidden;
