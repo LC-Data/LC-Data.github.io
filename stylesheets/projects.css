@@ -124,6 +124,7 @@ li a:hover {
 }
 
 #inner1 { 
+  float: left;
   padding: 5px;
   width: 48%;
   background-color: white;
