@@ -116,6 +116,6 @@ li a:hover {
   background-color: #d6dffe;
 }
 
-#contactList {
+#contactList li {
   display: block;
 }
