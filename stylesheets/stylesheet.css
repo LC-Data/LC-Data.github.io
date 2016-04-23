@@ -84,7 +84,7 @@ li {
   display: inline-block;
 }
 
-li a {
+#menu a {
   transition: all 1s ease;
   display: inline-block;
   color: white;
@@ -94,6 +94,6 @@ li a {
 }
 
 
-li a:hover + #pictureContainer {
+#menu a:hover + #pictureContainer {
   transform: translate3d(-300px, 0px, 0px);
 }
