@@ -18,43 +18,14 @@
     <div id="pictureText">Nathan Roane's GitHub Goodies 2016</div>
     
 
-<div>
-  <ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Dropdown</a>
-      <div class="dropdown-content" id="myDropdown">
-       <a href="#">Link 1</a>
-       <a href="#">Link 2</a>
-       <a href="#">Link 3</a>
-      </div>
-   </li>
-  </ul>
-  </div>  
-  
-  <script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-// Close the dropdown if the user clicks outside of it
-    window.onclick = function(e) {
-      if (!e.target.matches('.dropbtn')) {
-
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (var d = 0; d < dropdowns.length; d++) {
-          var openDropdown = dropdowns[d];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
-      }
-    }
-  </script>
-
+    <div class="menu">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="menu-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+    </div>
 
     <div id="corset">
       HELLO, CAN YOU HEAR ME, I WANNA BE IN CALIFORNIA AT A STARTUP MAKIN MONEY YEAH YOU BET... 
