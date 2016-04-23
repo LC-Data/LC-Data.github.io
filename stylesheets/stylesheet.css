@@ -1,5 +1,4 @@
 body {
-  padding: 1px;
   margin: 0px;
   background-color: #fff5d7; 
   color: orange;
@@ -7,6 +6,7 @@ body {
 
 .pictureContainer img {
   margin-bottom: 35px;
+  opacity: 0.6;
   height: 310px;
   overflow: hidden;
   width: 1900px;
@@ -25,7 +25,6 @@ body {
 }
 
 #corset {
-  padding: 1px;
   margin-left: 100px;
   margin-right: 100px;
   background: #fefacb;
@@ -37,7 +36,6 @@ body {
 }
 
 #menu {
-  padding: 1px;
   background-color: white;
   border: 2px solid gray;
   width: auto;
