@@ -94,6 +94,6 @@ li {
 }
 
 
-#menu a:hover + #pictureContainer {
+#menu a:hover + #pictureContainer img{
   transform: translate3d(-300px, 0px, 0px);
 }
