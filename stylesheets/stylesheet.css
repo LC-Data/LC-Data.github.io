@@ -1,5 +1,5 @@
 body {
-  margin: 2px;
+  margin: 0px;
   background-color: #fff5d7; 
   color: red;
 }
@@ -26,7 +26,7 @@ body {
 #corset {
   margin-left: 100px;
   margin-right: 100px;
-  background: #999999;
+  background: #fffffd;
   font-size: 55px;
   color: blue;
   height: 100vh;
