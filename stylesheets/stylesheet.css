@@ -30,4 +30,6 @@ body {
   font-size: 55px;
   color: blue;
   height: 100vh;
+  border-color: gray;
+  border: 3px;
 }
