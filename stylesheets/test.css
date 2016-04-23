@@ -103,10 +103,10 @@ li a:hover {
 
 #container {
   width: 200px;
-  height: 30px;
+  height: 200px;
 }
 #cube {
-  width: 30px;
+  width: 100px;
   height: 100%;
   background-color: red;
 }
