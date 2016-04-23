@@ -100,3 +100,18 @@ li a:hover {
   color: black;
   background-color: #ffd7ff;
 }
+
+#container {
+  width: 200px;
+  height: 30px;
+}
+#cube {
+  width: 30px;
+  height: 100%;
+  background-color: red;
+}
+#cube:hover {
+  width: 30px;
+  height: 100%;
+  background-color: blue;
+}
