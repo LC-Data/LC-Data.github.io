@@ -81,13 +81,8 @@ ul {
 }
 
 
-li {
-  float: right;
-}
-
-
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 1px 10px;
