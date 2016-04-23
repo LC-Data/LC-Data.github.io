@@ -37,7 +37,7 @@ body {
 
 #menu {
   border: 2px solid gray;
-  width: 100%;
+  width: auto;
   color: red;
   font-size: 25px;
   height: 35px;
