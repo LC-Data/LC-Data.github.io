@@ -61,13 +61,6 @@ body {
   font-size: 25px;
   height: 35px;
   text-align: center;
-  position: relative;
-}
-
-#menu:before {
-  background-color: gray;
-  border-top: 1px solid white;
-  position: absolute;
 }
 
 
@@ -120,6 +113,7 @@ li a:hover {
 }
 
 #bottomFoot {
+  padding-top: 1px;
   text-shadow: 1px 1px #93a8bf;
   font-size: 16px;
   color: white;
