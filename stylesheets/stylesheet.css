@@ -6,7 +6,7 @@ body {
 
 .pictureContainer img {
   opacity: 0.6;
-  height: 250px;
+  height: 230px;
   overflow: hidden;
   width: 1900px;
   transform: translate3d(0px, 0px, 0px);
@@ -18,7 +18,7 @@ body {
 
 .pictureContainer {
   float: left;
-  height: 250px;
+  height: 230px;
   overflow: hidden;
   width: 100%;
 }
