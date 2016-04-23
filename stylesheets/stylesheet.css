@@ -7,7 +7,7 @@ body {
 }
 
 .pictureContainer img {
-    width: 100%;
+    width: 1900px;
     transform: translate3d(0px, 0px, 0px);
     transition: transform .7s ease-in-out;
 }
