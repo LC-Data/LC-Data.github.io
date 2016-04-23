@@ -98,6 +98,7 @@ li a {
 li a:hover {
   color: orange;
   background-color: #ffd7ff;
+  text-decoration: none;
 }
 
 .box {
