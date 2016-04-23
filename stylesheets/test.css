@@ -117,3 +117,40 @@ li a:hover {
   width: 100px;
   height: 100px;
   background-color: yellow; }
+  
+  li a1 {
+  height: 100%;
+  transition: all 1s ease;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1px 35px;
+  text-decoration: none;
+}
+li a2 {
+  height: 100%;
+  transition: all 1s ease;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1px 35px;
+  text-decoration: none;
+}
+li a3 {
+  height: 100%;
+  transition: all 1s ease;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1px 35px;
+  text-decoration: none;
+}
+li a4 {
+  height: 100%;
+  transition: all 1s ease;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1px 35px;
+  text-decoration: none;
+}
