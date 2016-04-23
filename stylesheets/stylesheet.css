@@ -108,3 +108,9 @@ li a:hover {
   color: black;
   font-size: 16px;
 }
+
+#bottomFoot {
+  border-top: 2px solid gray;
+  height: 35px;
+  background-color: #ffefe8;
+}
