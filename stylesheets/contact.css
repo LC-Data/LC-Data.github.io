@@ -95,7 +95,6 @@ li a {
   text-decoration: none;
 }
 
-
 li a:hover {
   color: orange;
   background-color: #f1f4f3;
@@ -115,4 +114,8 @@ li a:hover {
   border-top: 2px solid gray;
   height: 20px;
   background-color: #d6dffe;
+}
+
+#contactList {
+  display: block;
 }
