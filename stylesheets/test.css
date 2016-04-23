@@ -104,7 +104,9 @@ li a:hover {
 #container {
   width: 100px;
   height: 100px;
+  background-color: green;
 }
+
 #cube {
   width: 100px;
   height: 100px;
