@@ -35,6 +35,7 @@ body {
 }
 
 #menu {
+  padding: 1px;
   background-color: white;
   border: 2px solid gray;
   width: auto;
