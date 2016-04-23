@@ -97,6 +97,6 @@ li a {
 
 
 li a:hover {
-  color: black;
-  background-color: #ffd7ff;
+  color: orange;
+  background-color: #d4dddb;
 }
