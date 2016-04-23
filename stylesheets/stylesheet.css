@@ -14,7 +14,7 @@ body {
   transition: transform 1.7s ease-in-out;
 }
 .pictureContainer img:hover {
-  transform: translate3d(-300px, 0px, 0px);
+  
 }
 .pictureContainer {
   float: left;
@@ -95,7 +95,8 @@ li a {
 }
 
 
-li a:hover {
+li a:hover ~.pictureContainer {
+  transform: translate3d(-300px, 0px, 0px);
   color: black;
   background-color: #ffd7ff;
 }
