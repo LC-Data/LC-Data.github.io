@@ -82,6 +82,7 @@ ul {
 
 li {
   display: inline-block;
+  height: 100%;
 }
 
 li a {
