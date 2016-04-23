@@ -108,6 +108,7 @@ li a:hover {
 	-moz-transition: width 2s ease, height 2s ease;
 	-o-transition: width 2s ease, height 2s ease;
 	transition: width 2s ease, height 2s ease;
+	background-color: red;
 }
 
 .box-change {
