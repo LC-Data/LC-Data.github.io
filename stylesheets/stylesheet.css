@@ -24,7 +24,7 @@ body {
   width: 100%;
 }
 
-pictureText {
+#pictureText {
   z-index: 100;
   position: absolute;
   color: white;
