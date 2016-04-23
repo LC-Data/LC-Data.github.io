@@ -92,13 +92,13 @@ li a {
   color: black;
   text-align: center;
   padding: 1px 35px;
+  text-decoration: none;
 }
 
 
 li a:hover {
   color: orange;
   background-color: #ffd7ff;
-  text-decoration: none;
 }
 
 .box {
