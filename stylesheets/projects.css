@@ -122,3 +122,9 @@ li a:hover {
   background-color: #d6dffe;
 }
 
+#inner1 { 
+  padding: 5px;
+  width: 50%;
+  background-color: white;
+  color: orange;
+}
