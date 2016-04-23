@@ -60,6 +60,17 @@ body {
   text-align: center;
 }
 
+
+/* #menu:hover {
+  background-color: #ffd7ff;
+  cursor: pointer;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+} */
+
+
 ul {
   height: 100%;
   list-style-type: none;
@@ -74,9 +85,15 @@ li {
   display: inline-block;
 }
 
-#menu a:hover {
-  transform: translate3d(-300px, 0px, 0px);
+li a {
+  transition: all 1s ease;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 1px 20px;
+  text-decoration: none;
 }
+
 
 li a:hover {
   color: black;
