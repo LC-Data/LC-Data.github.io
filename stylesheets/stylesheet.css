@@ -94,6 +94,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover ~.pictureContainer {
+li a:hover > .pictureContainer {
   transform: translate3d(-300px, 0px, 0px);
 }
