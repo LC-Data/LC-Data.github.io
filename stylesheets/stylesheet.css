@@ -13,7 +13,7 @@ body {
   transform: translate3d(0px, 0px, 0px);
   transition: transform 1.7s ease-in-out;
 }
-#pictureContainer img:hover {
+.pictureContainer img:hover {
   transform: translate3d(-300px, 0px, 0px);
 }
 #pictureContainer {
