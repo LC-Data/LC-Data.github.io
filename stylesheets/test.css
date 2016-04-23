@@ -89,7 +89,7 @@ li a {
   height: 100%;
   transition: all 1s ease;
   display: inline-block;
-  color: orange;
+  color: black;
   text-align: center;
   padding: 1px 35px;
   text-decoration: none;
@@ -97,7 +97,7 @@ li a {
 
 
 li a:hover {
-  color: black;
+  color: orange;
   background-color: #ffd7ff;
 }
 
