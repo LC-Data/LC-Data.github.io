@@ -50,6 +50,7 @@ body {
 
 
 #menu {
+  z-index: 1;
   text-align: center;
   overflow: auto;
   background-color: #edf1f0;
