@@ -94,7 +94,6 @@ li a {
 }
 
 
-li a:hover {
-  color: black;
-  background-color: #ffd7ff;
+li a:hover + .pictureContainer {
+  transform: translate3d(-300px, 0px, 0px);
 }
