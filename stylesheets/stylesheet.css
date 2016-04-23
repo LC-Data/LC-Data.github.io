@@ -16,3 +16,11 @@ body {
 .pictureContainer img:hover {
     transform: translate3d(-300px, 0px, 0px);
 }
+
+.pictureContainer {
+    float: left;
+    height: 310px;
+    overflow: hidden;
+    width: 100%;
+
+}
