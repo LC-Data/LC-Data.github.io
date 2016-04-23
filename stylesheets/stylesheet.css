@@ -45,7 +45,7 @@ body {
   border-right: 2px solid gray;
 }
 
-#menu {
+.menu {
   overflow: auto;
   background-color: #edf1f0;
   border: 1px solid gray;
