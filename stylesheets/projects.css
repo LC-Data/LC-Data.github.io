@@ -143,9 +143,10 @@ li a:hover {
 }
 
 #wrapper {
-    width: 500px;
-    border: 1px solid black;
-    overflow: hidden; /* add this to contain floated children */
+  padding: 15px;
+  width: 100%;
+  border: 1px solid black;
+  overflow: hidden; /* add this to contain floated children */
 }
 #first {
     width: 300px;
