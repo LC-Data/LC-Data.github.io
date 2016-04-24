@@ -126,17 +126,17 @@ li a:hover {
 #wrapper {
   background-color: white;
   padding: 15px;
-  width: 75%;
+  width: 100%;
   border: 1px solid black;
   overflow: hidden; /* add this to contain floated children */
 }
 #first {
-  width: 50%;
+  width: 40%;
   float:left; /* add this */
   border: 1px solid red;
 }
 #second {
-  width: 50%;
+  width: 40%;
   border: 1px solid green;
   float: left; /* add this */
 }
