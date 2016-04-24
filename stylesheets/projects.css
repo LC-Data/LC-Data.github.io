@@ -124,6 +124,7 @@ li a:hover {
 }
 
 #wrapper {
+  position: relative;
   z-index: -5;
   background-color: white;
   padding: 5px;
