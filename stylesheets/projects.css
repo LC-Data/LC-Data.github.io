@@ -141,3 +141,18 @@ li a:hover {
   background-color: white;
   color: orange;
 }
+
+#floatwrapper {
+    width: 100%;
+    border: 1px solid black;
+}
+#inner1 {
+    padding-left: 2%;
+    width: 47%;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#inner2 {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
