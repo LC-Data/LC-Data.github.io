@@ -123,38 +123,19 @@ li a:hover {
   background-color: #d6dffe;
 }
 
-#inner1 { 
-  margin-top: 15px;
-  float: left;
-  padding: 5px;
-  width: 48%;
-  background-color: white;
-  color: orange;
-}
-
-#inner2 { 
-  margin-top: 15px;
-  float: right;
-  margin-left: 49%;
-  padding: 5px;
-  width: 48%;
-  background-color: white;
-  color: orange;
-}
-
 #wrapper {
   padding: 15px;
-  width: 100%;
+  width: 95%;
   border: 1px solid black;
   overflow: hidden; /* add this to contain floated children */
 }
 #first {
-  width: 40%;
+  width: 50%;
   float:left; /* add this */
   border: 1px solid red;
 }
 #second {
-  width: 40%;
+  width: 50%;
   border: 1px solid green;
   float: left; /* add this */
 }
