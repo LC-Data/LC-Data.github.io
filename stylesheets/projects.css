@@ -129,14 +129,13 @@ li a:hover {
   overflow: hidden; /* add this to contain floated children */
 }
 #first {
+  padding: 10px;
   background-color: pink;
   width: 48%;
   float:left; /* add this */
-  border: 1px solid red;
 }
 #second {
   background-color: grey;
   width: 48%;
-  border: 1px solid green;
   float: right; /* add this */
 }
