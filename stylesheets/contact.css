@@ -89,6 +89,8 @@ li {
 }
 
 li a {
+  border-left: 1px solid #ecf0ff;
+  border-right: 1px solid #ecf0ff;
   height: 100%;
   transition: all 1s ease;
   display: inline-block;
