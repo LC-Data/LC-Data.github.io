@@ -132,5 +132,5 @@ li a:hover {
 
 #pyLogo:hover {
   box-shadow: 7px 7px 3px grey;
-  transition-duration: 1s;
+  transition-duration: 0.8s;
 }
