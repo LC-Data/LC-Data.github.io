@@ -126,7 +126,7 @@ li a:hover {
 #wrapper {
   background-color: white;
   padding: 5px;
-  width: 98%;
+  width: 100%;
   overflow: hidden; /* add this to contain floated children */
 }
 #first {
