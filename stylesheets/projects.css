@@ -127,7 +127,6 @@ li a:hover {
   background-color: white;
   padding: 15px;
   width: 98%;
-  border: 1px solid black;
   overflow: hidden; /* add this to contain floated children */
 }
 #first {
