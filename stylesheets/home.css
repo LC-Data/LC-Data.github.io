@@ -42,7 +42,7 @@ body {
   background: #fefacb;
   font-size: 25px;
   color: black;
-  height: 100vh;
+  height: auto;
   border-left: 2px solid gray;
   border-right: 2px solid gray;
 }
