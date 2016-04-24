@@ -124,3 +124,9 @@ li a:hover {
   height: 20px;
   background-color: #d6dffe;
 }
+
+
+
+#pyLogo:hover {
+  box-shadow: 7px 7px 3px grey;
+}
