@@ -129,12 +129,12 @@ li a:hover {
   overflow: hidden; /* add this to contain floated children */
 }
 #first {
-  width: 50%;
+  width: 45%;
   float:left; /* add this */
   border: 1px solid red;
 }
 #second {
-  width: 50%;
+  width: 45%;
   border: 1px solid green;
   float: left; /* add this */
 }
