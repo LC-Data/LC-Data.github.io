@@ -142,17 +142,17 @@ li a:hover {
   color: orange;
 }
 
-#floatwrapper {
-    width: 100%;
+#wrapper {
+    width: 500px;
     border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
 }
-#inner1 {
-    padding-left: 2%;
-    width: 47%;
+#first {
+    width: 300px;
     float:left; /* add this */
     border: 1px solid red;
 }
-#inner2 {
+#second {
     border: 1px solid green;
-    overflow: hidden; /* if you don't want #second to wrap below #first */
+    float: left; /* add this */
 }
