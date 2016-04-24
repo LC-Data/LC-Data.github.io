@@ -37,6 +37,7 @@ body {
 
 
 #corset {
+  padding-bottom: 5px;
   margin-left: 100px;
   margin-right: 100px;
   background: #fefacb;
