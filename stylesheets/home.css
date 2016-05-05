@@ -58,7 +58,7 @@ body {
   border-left: 1px solid #d6dffe;
   border-right: 1px solid #d6dffe;
   border-bottom: 1px solid gray;
-  width: 100%;
+  width: auto;
   color: purple;
   font-size: 25px;
   height: 35px;
