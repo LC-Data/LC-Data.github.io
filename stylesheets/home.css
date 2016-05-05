@@ -25,13 +25,14 @@ body {
 
 
 #pictureText {
-  margin-left: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
   font-style: "Times New Roman";
   text-shadow: 2px 2px #7c6789;
   z-index: 100;
   position: absolute;
   color: white;
-  font-size: 5.9vw;
+  font-size: 5.9vmin;
   font-weight: bold;
 }
 
@@ -120,7 +121,7 @@ li a:hover {
 #bottomFoot {
   padding-top: 1px;
   text-shadow: 1px 1px #93a8bf;
-  font-size: 2vmin;
+  font-size: 3vmin;
   color: white;
   border-top: 1px solid gray;
   height: 20px;
