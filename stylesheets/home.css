@@ -122,8 +122,8 @@ li a:hover {
 }
 
 #logoContainer {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: auto;
+  padding-right: auto;
   text-align: center;
 }
 
