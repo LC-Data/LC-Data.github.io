@@ -37,12 +37,13 @@ body {
 
 
 #corset {
-  margin-left: 100px;
-  margin-right: 100px;
+  padding-bottom: 5px;
+  margin-left: 8%;
+  margin-right: 8%;
   background: #fefacb;
   font-size: 25px;
   color: black;
-  height: 100vh;
+  height: 100%;
   border-left: 2px solid gray;
   border-right: 2px solid gray;
 }
@@ -50,7 +51,7 @@ body {
 
 #menu {
   text-align: center;
-  overflow: auto;
+  overflow: hidden;
   background-color: #edf1f0;
   border-top: 1px solid gray;
   border-left: 1px solid #d6dffe;
@@ -100,12 +101,14 @@ li a {
   text-decoration: none;
 }
 
+
 li a:hover {
   color: orange;
   background-color: #f1f4f3;
 }
 
 #introBlurb {
+  height: 475px;
   margin: 10px;
   margin-top: 0px;
   padding-top: 10px;
@@ -113,13 +116,20 @@ li a:hover {
   font-size: 16px;
 }
 
+#logoContainer {
+
+  text-align: center;
+}
+
 #bottomFoot {
+  padding-top: 1px;
   text-shadow: 1px 1px #93a8bf;
-  font-size: 16px;
+  font-size: 2vmin;
   color: white;
-  border-top: 2px solid gray;
+  border-top: 1px solid gray;
   height: 20px;
   background-color: #d6dffe;
+  overflow: auto;
 }
 
 #contactList li {
