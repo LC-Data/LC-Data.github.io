@@ -77,9 +77,8 @@ body {
 } */
 
 
-ul {
+#menu {
   height: 100%;
-  width: auto;
   list-style-type: none;
   margin: 0;
   padding: 0;
