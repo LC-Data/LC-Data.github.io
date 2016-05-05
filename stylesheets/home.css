@@ -58,7 +58,7 @@ body {
   border-left: 1px solid #d6dffe;
   border-right: 1px solid #d6dffe;
   border-bottom: 1px solid gray;
-  width: auto;
+  width: 100%;
   color: purple;
   font-size: 25px;
   height: 35px;
@@ -121,7 +121,7 @@ li a:hover {
 #bottomFoot {
   padding-top: 1px;
   text-shadow: 1px 1px #93a8bf;
-  font-size: 2.2vmin;
+  font-size: 2vmin;
   color: white;
   border-top: 1px solid gray;
   height: 20px;
