@@ -51,7 +51,6 @@ body {
 
 #menu {
   text-align: center;
-  overflow: auto;
   background-color: #edf1f0;
   border-top: 1px solid gray;
   border-left: 1px solid #d6dffe;
