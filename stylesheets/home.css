@@ -139,10 +139,6 @@ li a:hover {
   
 }
 
-#pyLogo:hover {
-  box-shadow: 7px 7px 3px grey;
-  transition-duration: 0.6s;
-}
 
 #htmlLogo {
   padding-left: 25px;
@@ -151,21 +147,12 @@ li a:hover {
   
 }
 
-#htmlLogo:hover {
-  box-shadow: 7px 7px 3px grey;
-  transition-duration: 0.6s;
-}
 
 #javaLogo {
   padding-left: 25px;
   height: 104px;
   width: 104px;
   
-}
-
-#javaLogo:hover {
-  box-shadow: 7px 7px 3px grey;
-  transition-duration: 0.6s;
 }
 
 #rubyLogo {
@@ -175,10 +162,6 @@ li a:hover {
   
 }
 
-#rubyLogo:hover {
-  box-shadow: 7px 7px 3px grey;
-  transition-duration: 0.6s;
-}
 
 #phpLogo {
   padding-left: 25px;
@@ -187,7 +170,18 @@ li a:hover {
   
 }
 
-#phpLogo:hover {
+#cLogo {
+  padding-left: 25px;
+  height: 56px;
+  width: 104px;
+  
+}
+
+.logo {
+  
+}
+
+.logo:hover {
   box-shadow: 7px 7px 3px grey;
   transition-duration: 0.6s;
 }
