@@ -59,7 +59,7 @@ body {
   border-bottom: 1px solid gray;
   width: auto;
   color: purple;
-  font-size: 6%x;
+  font-size: 16%x;
   height: 22%px;
   text-align: center;
 }
@@ -86,7 +86,7 @@ ul {
 
 li {
   display: inline-block;
-  padding: 2% 5%;
+  padding: 2%;
   height: 100%;
 }
 
