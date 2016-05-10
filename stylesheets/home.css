@@ -4,26 +4,18 @@ body {
   color: orange;
 }
 
-#starBanner {
-  height: 50%;
-}
-
 .pictureContainer {
   float: left;
-  height: 10%;
+  height: 100%;
   overflow: hidden;
-  width: 75%;
+  width: 100%;
 }
 .pictureContainer img {
   opacity: 0.65;
   overflow: hidden;
-  width: 90%px;
+  width: 100%px;
   transform: translate3d(0px, 0px, 0px);
   transition: transform 1.7s ease-in-out;
-}
-.pictureContainer img:hover {
-  transform: translate3d(-200px, 0px, 0px);
-}
 
 
 #pictureText {
@@ -34,7 +26,7 @@ body {
   z-index: 100;
   position: absolute;
   color: white;
-  font-size: 5.9vmin;
+  font-size: 6.2vmin;
   font-weight: bold;
 }
 
