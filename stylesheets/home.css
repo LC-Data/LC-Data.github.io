@@ -6,7 +6,7 @@ body {
 
 .pictureContainer {
   float: left;
-  height: 200%;
+  height: 90%;
   overflow: hidden;
   width: 100%;
 }
