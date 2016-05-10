@@ -4,6 +4,10 @@ body {
   color: orange;
 }
 
+#starBanner {
+  height: 50%;
+}
+
 .pictureContainer {
   float: left;
   height: 10%;
