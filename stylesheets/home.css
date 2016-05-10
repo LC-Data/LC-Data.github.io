@@ -99,7 +99,8 @@ li a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 0% 0%;
+  padding-left: 4%;
+  padding-right: 4%;
   text-decoration: none;
 }
 
