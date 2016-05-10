@@ -12,9 +12,9 @@ body {
 }
 .pictureContainer img {
   opacity: 0.65;
-  height: 10%;
+  height: 100%;
   overflow: hidden;
-  width: 1900px;
+  width: 120%;
   transform: translate3d(0px, 0px, 0px);
   transition: transform 1.7s ease-in-out;
 }
