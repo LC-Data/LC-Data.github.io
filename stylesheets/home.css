@@ -6,13 +6,13 @@ body {
 
 .pictureContainer {
   float: left;
-  height: 20%;
+  height: 15%;
   overflow: hidden;
   width: 100%;
 }
 .pictureContainer img {
   opacity: 0.65;
-  height: 230px;
+  height: 15%;
   overflow: hidden;
   width: 1900px;
   transform: translate3d(0px, 0px, 0px);
