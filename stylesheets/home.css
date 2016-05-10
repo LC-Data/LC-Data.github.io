@@ -59,8 +59,8 @@ body {
   border-bottom: 1px solid gray;
   width: auto;
   color: purple;
-  font-size: 200%;
-  height: 22%px;
+  font-size: 10vh;
+  height: 22%;
   text-align: center;
 }
 
