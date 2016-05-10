@@ -86,7 +86,7 @@ ul {
 
 li {
   display: inline-block;
-  padding: 5% 5%;
+  padding: 2% 5%;
   height: 100%;
 }
 
@@ -98,7 +98,7 @@ li a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 10% 5%;
+  padding: 2% 2%;
   text-decoration: none;
 }
 
