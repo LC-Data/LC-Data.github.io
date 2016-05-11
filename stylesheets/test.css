@@ -106,21 +106,24 @@ li a:hover {
   background-color: #f1f4f3;
 }
 
-.box {
-	width: 300px;
-	height: 300px;
-	-webkit-transition: width 2s ease, height 2s ease;
-	-moz-transition: width 2s ease, height 2s ease;
-	-o-transition: width 2s ease, height 2s ease;
-	transition: width 2s ease, height 2s ease;
-	background-color: red;
+
+
+.button {
+-webkit-transform: scale(0.5, 0.5);
+   -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+        transform: scale(0.5, 0.5);
+
 }
 
-.box-change {
-	width: 400px;
-	height: 400px;
-	background-color: green;
+#testbutton {height: 100%; width: 100%; position: absolute;
+-webkit-transition: -webkit-transform 1s ease-in;
+   -moz-transition: -moz-transform 1s ease-in;
+    -ms-transition: -ms-transform 1s ease-in;
+        transition: transform 1s ease-in;
 }
+
+
 
 #bottomFoot {
   padding-top: 1px;
