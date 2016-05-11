@@ -33,15 +33,19 @@
     <div id="corset">
       
       <script>
-        $(function() {
-	        $("#bt").click(function() {
-		        $(".box").toggleClass("box-change");
-	        });
-        });
+        $("#testbutton").on('click', function() {
+		$(this).toggleClass('button');
+	});
+
+
+	$("#bt").on('click', function() {
+    		$("#testbutton").removeClass('button');
+	});
+
       </script>
       
       
-      <div class="box">hello...</div>
+      <img id="testbutton" class="button" src="https://qph.is.quoracdn.net/main-qimg-de8cc1a3fcfb1a7aa294ec058e16a654?convert_to_webp=true" alt ="PHP">
       
       <input type="button" value="Let's Do This Thing" id="bt">
       
