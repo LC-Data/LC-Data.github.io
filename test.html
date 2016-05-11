@@ -33,21 +33,26 @@
     <div id="corset">
       
       <script>
-        $("#testbutton").on('click', function() {
-		$(this).toggleClass('button');
+        $("#vid").on('click', function() {
+		$(this).toggleClass('small');
 	});
 
 
-	$("#bt").on('click', function() {
-    		$("#testbutton").removeClass('button');
+	$("#fs").on('click', function() {
+    		$("#vid").get(0).webkitEnterFullScreen();
+    		$("#vid").removeClass('small');
 	});
 
       </script>
       
       
-      <img id="testbutton" class="button" src="https://qph.is.quoracdn.net/main-qimg-de8cc1a3fcfb1a7aa294ec058e16a654?convert_to_webp=true" alt ="PHP">
-      
-      <input type="button" value="Let's Do This Thing" id="bt">
+        <input type="button" value="FULLSCREEN" id="fs" />
+	<br />
+
+	<video id="vid" class="small" autoplay="true" loop="true">
+            <source src="http://www.craftymind.com/factory/html5video/BigBuckBunny_640x360.mp4" type="video/mp4"/>
+            <source src="http://www.craftymind.com/factory/html5video/BigBuckBunny_640x360.ogv" type="video/ogg"/>
+	</video>
       
       
     </div>
