@@ -72,6 +72,10 @@ body {
   
 }
 
+.projectButtons:hover {
+  opacity: 0.6;
+}
+
 
 #TwitLine {
   text-align: center;
