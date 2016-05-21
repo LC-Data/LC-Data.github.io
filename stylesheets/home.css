@@ -55,9 +55,20 @@ body {
   border-radius: 15px;
   border: 3px solid black;
   
-  
+}
+
+#projectContentInner {
+  margin: 5%;
+  border: 1px solid gray;
+}
+
+.projectButtons {
+  width: 30%;
+  height: 40%;
+  border: 1px solid white;
   
 }
+
 
 #TwitLine {
   text-align: center;
