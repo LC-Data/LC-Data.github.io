@@ -63,6 +63,7 @@ body {
 }
 
 .projectButtons {
+  overflow: hidden;
   margin-top: 2%;
   margin-bottom: 2%;
   width: 30%;
