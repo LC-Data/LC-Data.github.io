@@ -66,6 +66,7 @@ body {
   width: 30%;
   height: 40%;
   border: 1px solid white;
+  display: inline-block;
   
 }
 
