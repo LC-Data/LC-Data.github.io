@@ -47,6 +47,17 @@ body {
   border-right: 2px solid gray;
 }
 
+#projectContent {
+  width: 65%;
+  height: 50%;
+  background-color: rgba(25,30,35,.61);
+  border-radius: 15px;
+  border: 3px solid black;
+  
+  
+  
+}
+
 #TwitLine {
   text-align: center;
 }
