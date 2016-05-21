@@ -48,6 +48,8 @@ body {
 }
 
 #projectContent {
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
   width: 65%;
   height: 50%;
