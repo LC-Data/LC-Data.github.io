@@ -69,11 +69,12 @@ body {
   height: 40%;
   border: 1px solid white;
   display: inline-block;
+  opacity: 0.6;
   
 }
 
 .projectButtons:hover {
-  opacity: 0.6;
+  opacity: 1.0;
 }
 
 
