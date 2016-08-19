@@ -1,0 +1,457 @@
+#clearScreen {
+	vertical-align: 50%;
+	font-family: "Times New Roman";
+	height: 85vh;
+	background-color: rgba(0,0,0,0.8);
+	position: relative;
+	margin-top: 2%;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	font-size: 3vmin;
+	text-shadow: 2px 2px 5px #000000;
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.spacer {
+	color: white;
+	height: 15vh;
+}
+
+#aboutBox {
+	background-color: rgba(0,0,0,0.95);
+	color: #0033cc;
+	/*color: white;*/
+	font-size: 2vmin;
+	height: 53vh;
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+	font-family: Georgia, serif;
+	padding: 2%;
+}
+
+
+
+#clickToHide {
+	opacity: 0.6;
+	text-align: center;
+}
+
+.introName {
+	text-align: center;
+	font-size: 8vmax;
+	color: white;
+	text-shadow: 5px 5px 5px #000000;
+
+}
+
+.sticky {
+	width: 100%;
+
+}
+
+.menuButtonCol {
+	background-color: #000033;
+	color: white;
+}
+
+#stickyTop {
+	background-color: #00001a;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 6px 35px 1px;
+
+
+}
+
+#githubLink {
+	border: 1px solid #305069;
+	padding: 2%;
+	background-color: #000033;
+
+}
+
+#topMenuBorder {
+	border: 1px solid #305069;
+	font-family: "Book Antiqua", serif;
+}
+
+#aboutTitle {
+	display: inline-block;
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	margin-bottom: 1%;
+	opacity: 0.9;
+	text-align: left;
+	height: 6%;
+	width: 30%;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-bottom: 4%;
+
+}
+
+#projectsTitle {
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	margin-top: 3%;
+	margin-bottom: 1%;
+	opacity: 0.9;
+	text-align: left;
+	height: 6%;
+	width: auto;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 4%;
+	display: inline-block;
+
+}
+
+#contactBox {
+	margin-top: 3%;
+	margin-left: 1%;
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	margin-bottom: 1%;
+	opacity: 0.9;
+	text-align: left;
+	height: 6%;
+	width: 60%;
+	padding-left: 2%;
+
+}
+
+body { 
+  background: url("http://i.imgur.com/sgeIndM.jpg?1") no-repeat center center fixed; 
+  /* http://i.imgur.com/5rIeNFt.jpg?1     http://i.imgur.com/LDby511.jpg?1     http://i.imgur.com/sgeIndM.jpg?1*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.titleBoxDark {
+	text-align: left;
+	color: white;
+	background-color: black;
+}
+
+.titleBoxLight {
+
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+}
+
+#mainStruct {
+	height: 100%;
+	background-size: 100%;
+	/*border-left: 1px solid gray;
+	border-right: 1px solid gray;*/
+}
+
+#bottomFoot {
+	margin-left: -1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+	padding-left: 1%;
+	padding-top: 1px;
+	padding-bottom: 2%;
+
+	text-shadow: 1px 1px 2px #000000;
+	font-size: 2vmin;
+	color: white;
+	width: auto;
+	height: 3vh;
+	background-color: rgba(255,255,255,0.2);
+
+}
+
+h3 {
+	font-family: Georgia, serif;
+
+}
+
+#Projects {
+	margin-top: 3%;
+	font-family: Georgia, serif;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	background-color: #447294;
+	color: pink;
+	text-align: center;
+}
+
+#webProject {
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family: Georgia, serif;
+	background-color: rgba(0,0,0,0.9);
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+
+
+}
+
+#Project1 {
+	color: white;
+	font-family: Georgia, serif;
+	height: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: rgba(0,0,0,0.95);
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+
+}
+
+#Project2 {
+	color: white;
+	height: 100vh;
+	font-family: Georgia, serif;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: rgba(0,0,0,0.95);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+}
+
+a:link {
+    color: #053978;
+}
+
+#picShow {
+	text-align: center;
+}
+
+
+ul.enlarge{
+list-style-type:none;
+margin-left:0;
+}
+ul.enlarge li{
+display:inline-block; 
+position: relative;
+z-index: 0;
+margin:10px 40px 0 20px;
+}
+ul.enlarge img{
+background-color:#eae9d4;
+padding: 6px;
+-webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; 
+border-radius: 4px; 
+}
+ul.enlarge span{
+position:absolute;
+left: -9999px;
+background-color:#eae9d4;
+padding: 10px;
+font-family: 'Droid Sans', sans-serif;
+font-size:.9em;
+text-align: center; 
+color: #495a62; 
+-webkit-box-shadow: 0 0 20px rgba(0,0,0, .75));
+-moz-box-shadow: 0 0 20px rgba(0,0,0, .75);
+box-shadow: 0 0 20px rgba(0,0,0, .75);
+-webkit-border-radius: 8px; 
+-moz-border-radius: 8px; 
+border-radius:8px;
+}
+ul.enlarge li:hover{
+z-index: 50;
+cursor:pointer;
+}
+ul.enlarge span img{
+padding:2px;
+background:#ccc;
+}
+ul.enlarge li:hover span{ 
+top: -350px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+left: -250px; /*distance from the left of the thumbnail to the left of the popup image*/
+}
+ul.enlarge li:hover:nth-child(2) span{
+left: -250px; 
+}
+ul.enlarge li:hover:nth-child(3) span{
+left: -250px; 
+}
+ul.enlarge img, ul.enlarge span{
+behavior: url(pie/PIE.htc); 
+}
+
+
+#ContactDetails {
+	background-color: rgba(0,0,0,0.95);
+	color: white;
+	font-family: Georgia, serif;
+	padding-top: 1%;
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+	height: 100%;
+	padding-left: 2%;
+
+}
+
+#moreLogos {
+	text-align: center;
+	background-color: rgba(0,0,0,0.9);
+	padding-bottom: 2%;
+	border-bottom: 1px solid white;
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+}
+
+#pyLogo {
+  padding-left: 1%;
+  height: 104px;
+  width: 104px;
+  
+}
+
+
+#htmlLogo {
+  padding-left: 1%;
+  height: 104px;
+  width: 104px;
+  
+}
+
+
+#javaLogo {
+  padding-left: 1%;
+  height: 104px;
+  width: 104px;
+  
+}
+
+#rubyLogo {
+  padding-left: 1%;
+  height: 104px;
+  width: 104px;
+  
+}
+
+
+#phpLogo {
+  padding-left: 1%;
+  height: 56px;
+  width: 104px;
+  
+}
+
+#cLogo {
+  padding-left: 1%;
+  height: 104px;
+  width: 104px;
+  
+}
+
+.logo {
+  
+}
+
+.logo:hover {
+  box-shadow: 7px 7px 3px grey;
+  transition-duration: 0.6s;
+}
+
+#moreInfoBox {
+	opacity: 0.8;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	margin: 0 auto;
+	text-align: center;
+	width: 60vw;
+	padding: 10%;
+	height: 10vh;
+	background-color: #3b3b3b;
+	border-left: 10px solid rgba(255, 255, 255, .2);
+	border-bottom: 10px solid rgba(255, 255, 255, .2);
+
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 2.2s;
+  -moz-animation-delay:2.2s;
+  animation-delay: 2.2s;
+}
+
+
+.my-icon {
+    position: relative;
+}
+.my-icon > i {
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border: 11em solid #1142AA;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 11em;
+    left: 0em;
+    top: 0em;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.8s infinite;
+    -moz-animation: blink 0.8s infinite;
+    animation: blink 0.8s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
