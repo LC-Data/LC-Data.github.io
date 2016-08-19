@@ -1,104 +1,225 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1" />
-    <title>Nathan Roane 2016</title>
-    <meta name="HandheldFriendly" content="true" />
-    <meta name=viewport content='width=950'>
-    <meta name="MobileOptimized" content="950" />
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Roane Online Portfolio 2016</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="/js/vendor/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://www.studiowh.co.uk/s/typed-9s2z.js"></script>
+      
 
-    <!-- smart phone css  -->
-    <link href="stylesheets/home.css" rel="stylesheet" type="text/css" media="all and (min-width: 0px) and (max-width: 480px)" />
 
-    <!-- Tablet -->
-    <link href="stylesheets/home.css" rel="stylesheet" type="text/css" media="all and (min-width: 481px) and (max-width: 800px)" />
+      <!-- <script>for the typed.js code</script> -->
 
-    <!-- Desktop -->
-    <link href="stylesheets/home.css" rel="stylesheet" type="text/css" media="only screen and (min-width:801px)">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
   </head>
-  
-  
   <body>
 
-    <div id="pictureText">Nathan Roane GitHub Portfolio 2016, HI LUKE</div>
 
-    <div class="pictureContainer">
-      <img src="http://i.imgur.com/3Ie7U1n.jpg?1" id="starBanner" />
+    <div class="top-bar-container" data-sticky-container>
+          <div class="sticky" data-sticky data-options="anchor: page; marginTop: 0; stickyOn: small;">
+            <div class="top-bar" id="stickyTop">
+              <div class="row column">
+                <div class="top-bar-left">
+                  <ul class="dropdown menu" id="topMenuBorder" data-dropdown-menu>
+                    <li class="menu-text menuButtonCol">Nathan Roane Portfolio</li>
+                    <li class="menuButtonCol"><a href="#clearScreen">Top</a></li>
+                    <li class="menuButtonCol"><a href="#aboutTitle">About</a></li>
+                    <li class="menuButtonCol"><a href="#projectsTitle">Projects</a></li>
+                    <li class="menuButtonCol"><a href="#ContactDetails">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="top-bar-right">
+                  <ul class="menu">
+                    <li id="githubLink"><a href="https://github.com/LC-Data">Github</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+    <div id="clearScreen" class="fade-in one">
+
+      <div id="hider">
+        <div id="clickToHide">Click to enjoy the view</div>
+        <div id="NathanName" class="introName fade-int two">
+          Nathan Roane 2016
+        </div>
+        Hey there!<br> My name is Nathan Roane, and welcome to my online portfolio. I'm an eternally-interested developer and always looking for something new and fun to play with both inside and out of the world of computing. Born and raised in Toronto, I've been tinkering with machines ever since I can remember my dad building our first home pc when I was in kindergarten, and I suppose I just never stopped. Naturally I discovered programming langauges and scripting which ultimately sparked a fascination inside of me that keeps my continual thirst for the new and interesting constantly fulfilled. Outside of computers I'm a fitness enthusiast so I enjoy working out and getting involved in sports and being physical, I love to play games (online too!). Below you will find more about me and the skills I have to offer as well as a few projects I have been working on. Thanks for stopping by. <br> -Nathan  
+      </div>
+
+
     </div>
 
-    <div id="menu">
-      <ul>
-        <li><a id="HomePara" href="http://lc-data.github.io/">Home</a></li>
-        <li><a id="TestPara" href="http://lc-data.github.io/test">Test Area</a></li>
-        <li><a id="ProjectsPara" href="http://lc-data.github.io/projects">Projects</a></li>
-        <li><a id="AboutPara" href="http://lc-data.github.io/about">About</a></li>
-        <li><a id="MiscPara" href="http://lc-data.github.io/misc">Misc</a></li>
-        <li><a id="ContactPara" href="http://lc-data.github.io/contact">Contact</a></li>
-      </ul>
+
+        <div class="spacer"></div>
+
+
+    <div class="row" id="mainStruct">
+
+          <div id="aboutTitle" class="titleBoxDark"> <h3>$About Me</h3></div>
+          
+          <div class="row">
+            <div class="small-12 medium-12 large-12 columns" id="aboutBox">
+              <div class="type-wrap">root@ubuntu:~$ &nbsp; &nbsp;<span id="typed"></span></div>           
+            </div>
+          </div>
+
+
+
+          <div class="spacer"></div>
+          <div id="projectsTitle" class="titleBoxDark"><h3>$Projects</h3></div>
+          <div class="row" id="ProjectsRow" data-equalizer>
+
+            
+      
+
+            <div class="small-12 medium-12 large-12 columns" id="webProject">
+            <div class="titleBoxLight"><h3>Online Portfolio</h3></div>
+            <br>
+
+            Originally destined to be hosted via github.org using the (in my opinion) awesome and lesser known <a href="https://pages.github.com/">GitHub Pages</a> feature, where I could show off my understanding of the biggest version control system in use today, I quickly found that it would be more fun, and much easier to impliment everything I wanted to if I just hosted my portfolio website myself.<br><br>
+            I grabbed my old RaspberryPi Model B+ and went to work, implementing an Apache webserver on to the RPi along with MySQL, PHP, Python and full Foundation support (among others) with the ultimate goal of only having to rely on myself to host and develop the website. <br><br>
+
+            <ul id="picShow" class="enlarge">
+              <li>
+                <img src="img/ServerPic.jpg" width="300px" height="200px" alt=""My 'office'..." />
+                  <span> <img src="img/ServerPic.jpg" alt="My 'office'..." /> <br />RPi B+ doing work! </span>
+              </li>
+              <li>
+                <img src="img/codingShow.jpg" width="300px" height="200px" alt="Columns on columns" />
+                  <span> <img src="img/codingShow.jpg" alt="Columns on columns" /> <br />Getting my code on</span>
+              </li>
+              <li>
+                  <img src="img/terminalShot.jpg" width="300px" height="200px" alt="In the terminal" />
+                    <span> 
+                  <img src="img/terminalShot.jpg" alt="In the terminal" /> <br />a shot of the LAMP inner-workings</span>
+                </li>
+            </ul>
+       
+
+            Developed with responsiveness as priority number one, I developed this website using the <a href="http://foundation.zurb.com/">Foundation</a> framework. Similar to Bootsrap and other front-end frameworks, Foundation has ensured that my website can reliably be viewed on most any device in existence without it turning in to an unreadable, or just plain ugly mess. A tonne of CSS has been implimented by me to get the site looking as I want it to. Javascript has been used to provide additional functionality accross the board, ranging from menu implimentation to simple DOM manipulation. I'm pretty proud of the setup I have going on, and I love being able to work on the front and back-end!
+
+            </div>
+
+            <div class="small-6 medium-6 large-6 columns" id="Project1" data-equalizer-watch>
+            <div class="titleBoxLight"><h3>Twitter Bot!</h3></div>
+          
+            Enter: <i>Inspirational Arnold</i>. AKA my Twitter bot! I developed Inspirational Arnold purely for fun and laughs, and it has provided me plenty of both. Originally intended to be a project that would help me dive in to the world of APIs and to get a solid understanding of how they work, Inspirational Arnold has helped me do just that. Coded in Python with the use of a few neat libraries that interact with the Twitter API, this bot tweets an inspiring/motivational/funny quote, usually in regards to fitness (I like to lift), at set time intervals. IA follows back everyone who follows him, can unfollow everyone who doesn't reciprocate his follows (on my command) and in the very-near future will re-tweet inspiring fitness quotes from others!
+            <br><br>
+            Since his creation, I have sort of just let Arnold loose in to the vast world of Twitter to do as he pleases, and he is slowly accruing followers of his own! Therefore, I basically have a Twitter account that just grows itself... which could one day be pretty useful. I tweak Arnie pretty regularly but for the most part he has an uptime of over 90%.
+            <br><br>
+            Below you can find Inspirational Arnie tweeting his digital heart out and inspiring all who dare read.
+
+            <br><br>
+            <a href="https://twitter.com/comewithme2lift">"Come with me if you want to lift."</a><br>
+            <a href="https://github.com/LC-Data/ArnoldBot">Inspirational Arnold's guts.</a>
+            
+
+            </div>
+
+            <div class="small-6 medium-6 large-6 columns" id="Project2" data-equalizer-watch>
+            <div class="titleBoxLight"><h3>r/programming's Top Post of the Day!</h3></div>
+            
+            Another Python project, fun and educational. This script I wrote scrapes Reddit.com/r/programming's top post of the day, every day, saves the post title, the post link, and the author of the post. Once this data has been collected, it is inserted in to a MySQL database (also running off of my RPi!). The data is then called by this website, and displays itself here for me to see. The overall goal of this program was to be able to easily search and save the top posts everyday! Reddit doesn't seem to have an easy way to search for posts day by day... and not browsing every day means that you miss great content... and I'd rather not be obligated to visit everyday when I can just save the content myself using this!
+
+            <!-- <div class="type-wrap"><span id="typed"></span></div> -->
+ 
+
+            </div>
+
+          </div>    <!-- ends the Project Row -->
+
+          <div class="row">
+              <div class ="small-12 medium-12 large-12 columns" id="moreLogos">
+                More about this website, click the logos for more information! <br>
+
+                <img id="pyLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt ="Python">
+                <img id="htmlLogo" class="logo" src="http://i.imgur.com/brfnrq2.png?1" alt ="HTML 5">
+                <img id="javaLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/en/8/88/Java_logo.png" alt ="Java">
+                <img id="rubyLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/en/5/59/Ruby_%28programming_language%29_logo.gif" alt ="Ruby">
+                <img id="phpLogo" class="logo" src="https://qph.is.quoracdn.net/main-qimg-de8cc1a3fcfb1a7aa294ec058e16a654?convert_to_webp=true" alt ="PHP">
+                <img id="cLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/226px-The_C_Programming_Language_logo.svg.png" alt ="PHP">
+
+                <br><br>
+                <div id="moreInfoBox">
+                  Click the logos above for more information!
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <div class="row" id="contact">
+            <div id="contactBox" class="titleBoxDark"><h3>Contact Info & Project Details</h3></div>
+              <div class="large-12 cloumns" id="ContactDetails">
+                
+
+                Feel free to contact me through any of the following methods (e-mail or phone will have the best chance at an instant response).<br><br>
+                Project details and code will be availabe via <a href="https://github.com/LC-Data">my github</a> repositories! <br><br>
+
+                <ul>
+                  <li>E-Mail: nathanroane@gmail.com</li>
+                  <li>Telephone: (613) 985 - 4554</li>
+                  <li>Skype: add nathanroane@gmail.com</li>
+                  <li>Carrier Pigeon</li>
+                </ul>
+
+
+                Code Featured on this website available via my github:
+                <ul>
+                  <li>This website's HTML, CSS, JS</li>
+                  <li>Inspirational Arnold's inner-workings</li>
+                  <li>Top Programming Post's inner-workings (USE ANGULAR+SQL OR PHP STILL UP IN THE AIR)</li>
+                  <li>and more...</li>
+                </ul>
+
+
+
+              </div>
+            </div>
+
+            <div id="bottomFoot">Nathan Roane 2016</div>
+
+
     </div>
 
-    <div id="corset">
-      
-      <div id="introBlurb">
-        Hello, and welcome to my online portfolio. Here I will feature some of my personal projects that 
-      </div>
-      
-      <div id = "projectContent">
-        
-        
-        
-        <div class = "projectButtons">
-          <img src="http://logomecca.com/wp-content/uploads/2015/07/twitter_blue_text_logo_png_font_typeface_square_android_icon_vector_png_eps_button_download_font_black_and_white_transparent_background_maker_ai_file_adobe_illustrator_free.png" width="200" height="120">
-          
-          
-          
-          wagwan</div>
-        <div class = "projectButtons">wagwan</div>
-        <div class = "projectButtons">wagwan</div>
-        
-        
-        
-        
-        
-        
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <div id = "TwitLine">
-      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ComeWithMe2Lift" data-widget-id="733863662335758336">Tweets by @ComeWithMe2Lift</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div>
-      
-      
-      <div id="logoContainer">
-      
-        <img id="pyLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" alt ="Python">
-        <img id="htmlLogo" class="logo" src="http://i.imgur.com/brfnrq2.png?1" alt ="HTML 5">
-        <img id="javaLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/en/8/88/Java_logo.png" alt ="Java">
-        <img id="rubyLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/en/5/59/Ruby_%28programming_language%29_logo.gif" alt ="Ruby">
-        <img id="phpLogo" class="logo" src="https://qph.is.quoracdn.net/main-qimg-de8cc1a3fcfb1a7aa294ec058e16a654?convert_to_webp=true" alt ="PHP">
-        <img id="cLogo" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/226px-The_C_Programming_Language_logo.svg.png" alt ="PHP">
-      
-      </div>
-      
-    </div>
-    
-    <div id="bottomFoot"> All works posted are product of Nathan Roane 2016 ©
-      
-    </div>
-    
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation.topbar.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/foundation/foundation.equalizer.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+
+
 
   </body>
 </html>
+
+
+
+      <!-- <div id=" id="starBannerContainer>
+        <div class="large-1 columns" id="starBanner">
+          <img src="http://i.imgur.com/3Ie7U1n.jpg?1">
+        </div>
+      </div>
+    </div>
+ -->
