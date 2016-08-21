@@ -131,7 +131,7 @@
 }
 
 body { 
-  background: url("http://i.imgur.com/LM477JA.jpg") no-repeat center center fixed; 
+  background: url("http://i.imgur.com/LM477JA.jpg"); 
   /* http://i.imgur.com/5rIeNFt.jpg?1     http://i.imgur.com/LDby511.jpg?1     http://i.imgur.com/sgeIndM.jpg?1*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
