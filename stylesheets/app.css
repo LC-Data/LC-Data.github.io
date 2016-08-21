@@ -39,7 +39,7 @@
 	color: #0033cc;
 	/*color: white;*/
 	font-size: 2vmin;
-	margin-left: 50%;
+	margin-left: 18%;
 	height: 53vh;
 	border-left: 10px solid rgba(255, 255, 255, .2);
 	border-bottom: 10px solid rgba(255, 255, 255, .2);
@@ -92,8 +92,8 @@
 
 #aboutTitle {
 	border-left: 10px solid rgba(129, 130, 141, .2);
-	margin-top: 30%;
-	margin-left: 1%;
+	margin-top: 5%;
+	margin-left: 18%;
 	margin-bottom: 1%;
 	opacity: 0.9;
 	text-align: left;
