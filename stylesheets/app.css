@@ -13,7 +13,7 @@
 	color: white;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	padding-left: 33%;
+	padding-left: 28%;
 	padding-right: 5%;
 
 }
@@ -31,7 +31,7 @@
 }
 
 #aboutBox {
-	background-color: rgba(0,0,0,0.95);
+	background-color: rgba(92,92,138,0.95);
 	color: #0033cc;
 	/*color: white;*/
 	font-size: 2vmin;
