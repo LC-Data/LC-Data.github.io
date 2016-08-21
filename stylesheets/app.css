@@ -30,15 +30,16 @@
 
 .spacer {
 	color: white;
-	height: 15vh;
+	height: 10vh;
 }
 
 #aboutBox {
 	font-family: 'Ubuntu', sans-serif;
-	background-color: rgba(92,92,138,0.95);
+	background-color: rgba(129,130,141,0.95);
 	color: #0033cc;
 	/*color: white;*/
 	font-size: 2vmin;
+	margin-left: 35%;
 	height: 53vh;
 	border-left: 10px solid rgba(255, 255, 255, .2);
 	border-bottom: 10px solid rgba(255, 255, 255, .2);
