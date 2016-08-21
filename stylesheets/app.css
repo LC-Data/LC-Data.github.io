@@ -110,6 +110,7 @@
 #projectsTitle {
 	border-left: 10px solid rgba(255, 255, 255, .2);
 	margin-top: 3%;
+	margin-left: 35%;
 	margin-bottom: 1%;
 	opacity: 0.9;
 	text-align: left;
@@ -193,7 +194,7 @@ h3 {
 #Projects {
 	margin-top: 3%;
 	font-family: Georgia, serif;
-	padding-left: 3%;
+	padding-left: 36%;
 	padding-right: 3%;
 	padding-top: 1%;
 	padding-bottom: 1%;
