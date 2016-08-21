@@ -67,12 +67,12 @@
 }
 
 .menuButtonCol {
-	background-color: #000033;
+	background-color:rgb(117,119,134);
 	color: white;
 }
 
 #stickyTop {
-	background-color: #00001a;
+	background-color:rgb(117,119,134);
 	border-bottom: 1px solid black;
 	box-shadow: 0px 6px 35px 1px;
 
