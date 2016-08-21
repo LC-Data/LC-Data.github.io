@@ -21,6 +21,8 @@
 #subText {
 	color: white;
 	text-align: center;
+	font-size: 2vmax;
+	font-style: italic;
 
 	
 }
@@ -51,7 +53,7 @@
 
 .introName {
 	text-align: center;
-	font-size: 8vmax;
+	font-size: 6vmax;
 	color: white;
 	text-shadow: 5px 5px 5px #000000;
 
