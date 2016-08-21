@@ -110,7 +110,7 @@
 #projectsTitle {
 	border-left: 10px solid rgba(255, 255, 255, .2);
 	margin-top: 3%;
-	margin-left: 3%;
+	margin-left: 9%;
 	margin-bottom: 1%;
 	opacity: 0.9;
 	text-align: left;
@@ -209,7 +209,8 @@ h3 {
 
 #webProject {
 	color: white;
-	padding-left: 33%;
+	margin-left: 33%;
+	padding-left: 3%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	font-family: Georgia, serif;
