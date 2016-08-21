@@ -38,7 +38,7 @@
 	color: #0033cc;
 	/*color: white;*/
 	font-size: 2vmin;
-	width: 95%;
+	width: 94%;
 	margin-left: 16%;
 	margin-right: 3%;
 	height: 53vh;
@@ -147,7 +147,7 @@ body {
 .titleBoxDark {
 	text-align: left;
 	color: white;
-	background-color: black;
+	background-color: rgb(97, 98, 108);
 }
 
 .titleBoxLight {
