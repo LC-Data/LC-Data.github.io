@@ -21,7 +21,7 @@
 #subText {
 	color: white;
 	text-align: center;
-	font-size: 2vmax;
+	font-size: 1vmax;
 	font-style: italic;
 	font-family: 'Ubuntu', sans-serif;
 
@@ -54,7 +54,7 @@
 
 .introName {
 	text-align: center;
-	font-size: 6vmax;
+	font-size: 4vmax;
 	color: white;
 	text-shadow: 5px 5px 5px #000000;
 
