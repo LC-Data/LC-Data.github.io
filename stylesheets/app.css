@@ -194,7 +194,7 @@ h3 {
 #Projects {
 	margin-top: 3%;
 	font-family: Georgia, serif;
-	padding-left: 36%;
+	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 1%;
 	padding-bottom: 1%;
@@ -209,6 +209,7 @@ h3 {
 
 #webProject {
 	color: white;
+	padding-left: 33%;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	font-family: Georgia, serif;
