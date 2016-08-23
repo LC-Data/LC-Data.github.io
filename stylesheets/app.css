@@ -481,7 +481,7 @@ behavior: url(pie/PIE.htc);
     position: relative;
 }
 .inner-border:before {
-    border: 5px solid #000;
+    border: 5px solid #6b6c76;
     content: "";
     position: absolute;
     top: -10px;
