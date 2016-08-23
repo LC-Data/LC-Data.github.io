@@ -474,7 +474,7 @@ behavior: url(pie/PIE.htc);
 }
 
 .inner-border {
-    background: #000;
+    background: rgb(129,130,141);
     color: #fff;
     margin: 50px;
     padding: 15px;
