@@ -11,7 +11,7 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="http://www.studiowh.co.uk/s/typed-9s2z.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    
+    <script src="js/app.js"></script>
 
 </head>
 
@@ -75,17 +75,17 @@
                 <div>
                     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                         <li>
-                            <img src="http://i.imgur.com/or5E2xX.jpg" alt="image1" />
+                            <img src="img/image1.png" alt="image1" />
                             <h3 class="text-center">Who am I?</h3>
                             <p>I'm a young guy who feels lucky to have been part of (in my opinion) the first generation to grow up with the internet. I love to code, I love computers, and I love to be one step ahead of the game. Read more about me here!</p>
                         </li>
                         <li>
-                            <img src="http://i.imgur.com/aknLNGI.jpg" alt="image2" />
+                            <img src="img/image2.jpg" alt="image2" />
                             <h3 class="text-center">My credentials</h3>
                             <p>Explore here for a more in-depth look at what I can do. Information about my educational background, skill set, and specific areas of interest are covered.</p>
                         </li>
                         <li>
-                            <img src="http://i.imgur.com/BRU1QWn.jpg" alt="image3" />
+                            <img src="img/image3.jpg" alt="image3" />
                             <h3 class="text-center">What I hope to achieve.</h3>
                             <p>One day I'd like to be able to look back on what I have done and be proud of it. Here I outline my long-term goals and professional aspirations. <!-- I'd like to be an innovator, a creator, and a helper.
                             My goals include contributing to meaningful projects that genuinely help people, I'd like to contribute to the greater good. I want to be able to satisfy my curiousities and learn as much about people and the universe as I possibly can, and I want to have a great time doing it. --></p>
@@ -102,29 +102,39 @@
                 <h4 class="text-center">Completed projects and some works in progress.</h4>
                 <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
                     <li>
-                        <img class="th" src="http://i.imgur.com/0rkpwC0g.jpg" alt="My Twitter bot" />
+                        <img class="th twitBot" src="img/twitterbot.jpg" alt="My Twitter bot" />
                     </li>
                     <li>
-                        <img class="th" src="http://i.imgur.com/PlU887h.jpg" alt="My personal webserver" />
+                        <img class="th webServ" src="img/webserver.jpg" alt="My personal webserver" />
 
                     </li>
                     <li>
-                        <img class="th" src="http://i.imgur.com/OVrylYr.jpg" alt="WebDev Projects" />
+                        <img class="th webDev" src="img/webdev.jpg" alt="WebDev Projects" />
                     </li>
                     <li>
-                        <img class="th" src="http://i.imgur.com/IFiIJ2D.jpg" alt="I need that info!" />
+                        <img class="th redScrap" src="img/redditscraper.jpg" alt="I need that info!" />
                     </li>
                     <li>
-                        <img class="th" src="http://i.imgur.com/6wH5QGt.jpg" alt="Franchise Management" />
+                        <img class="th beineApp" src="img/beineapp.jpg" alt="Franchise Management" />
 
                     </li>
                     <li>
-                        <img class="th" src="http://i.imgur.com/50K6NvF.jpg" alt="Stats analysis/tracker" />
+                        <img class="th dotaStats" src="img/dota2.jpg" alt="Stats analysis/tracker" />
                     </li>
                     <li>
-                        <img class="th" src="http://i.imgur.com/jbHzi0b.jpg" alt="everything else..." />
+                        <img class="th miscStuff" src="img/misc.jpg" alt="everything else..." />
+                    </li>
+                    <li>
+                        <img class="th funStuff" src="img/misc.jpg" alt="FUN STUFF!" />
                     </li>
                 </ul>
+
+
+                <div id="descripBox" style="display:none;"> ABC 123 BB U Ndsfsds ME </div>
+
+
+
+
             </div>
         </div>
     </section>
@@ -141,16 +151,16 @@
                                 <p>You can find my resume here. Check back periodically for new updates and edits to my resume and portfolio!</p>
                             </li>
                             <li>
-                                <h3>Get AT ME</h3>
+                                <h3>Get in touch</h3>
                                 <p>Feel free to contact me through any of the following methods (e-mail or phone will have the best chance at an instant response).
                                  More project details and code availabe via <a href="https://github.com/LC-Data">my github</a> repositories.</p>
                             </li>
                             <li>
-                                <h3>Heading 3333</h3>
+                                <h3>Heading 3</h3>
                                 <p>Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi. Maecenas et turpis vitae velit volutpat porttitor a sit amet est. Uthasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi.</p>
                             </li>
                             <li>
-                                <h3>Contact me</h3>
+                                <h3>Contact methods</h3>
                                 <ul>
                                     <li>
                                         <i class="fi-telephone"></i> (613)985-4554
@@ -161,7 +171,7 @@
                                         <i class="fi-mail"></i> nathanroane@gmail.com
                                     </li>
                                 </ul>
-                                <img src="http://imgur.com/60arFEV.jpg" alt="map" />
+                                <img src="img/map.png" alt="map" />
                             </li>
                         </ul>
                     </div>
@@ -177,11 +187,12 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="small-12 medium-12 large-12 columns" id="aboutBox">
               
-        <div class="small-12 medium-12 large-12 columns" id="aboutBox">    
-    
-            <div class="type-wrap">root@ubuntu:~$ &nbsp; &nbsp;<span id="typed"></span></div>
-            
+             <div class="type-wrap">root@ubuntu:~$ &nbsp; &nbsp;<span id="typed"></span></div>
+
         </div>
 
 
@@ -194,26 +205,93 @@
     <script src="js/typed.js" type="text/javascript"></script>
 
 
-    <script>
-        $(document).foundation();
-    </script>
-
-    <script>
-        $(function() {
-           $("#typed").typed( {
-              strings: ["sudo apt-get install about-nathan<br><br>Aspiring developer with front and back-end experience, RaspberryPi enthusiast and statistics cruncher.<br><b>Education:</b><br><br>Queen's University Bachelor of Computing<br><br><b>Technical skills include:</b><br><br>~Webdev – Python, HTML5, CSS3, JS (Angular, Bootstrap, jQuery), PHP, database management and hosting experience with MySQL and WAMP/LAMP.<br><br>~Back-end – Java, Python, Perl, C(++, #), Prolog, Haskell, R<br><br>~UNIX/Linux, Vim, Emacs, SEO, knowledge of Arduino/microcontrollers, strong mathematics.<br><br>~WordPress, webmaster Autobiographymag.com"],
-              typeSpeed: 0.5,
-              backDelay: 12000,
-              loop: true,
-              // defaults to false for infinite loop
-              loopCount: false,
-              callback: function() {foo();
-              }
-           });
-           function foo() {console.log("Callback");}
+       <script>
+         $(function() {
+            $("#typed").typed( {
+                strings: ["sudo apt-get install about-nathan<br><br>Aspiring developer with front and back-end experience, RaspberryPi and statistics enthusiast.<br><b>Education:</b><br><br>Queen's University Bachelor of Computing <br><br><b>Technical skills:</b><br><br>~Webdev – HTML5, CSS3, JS (Angular, Bootstrap, jQuery), PHP, database/server management and hosting experience, MySQL, WLAMP, node.js.<br><br>~Back-end – Java, Python, Perl, C(++, #), Prolog, Haskell, Ruby<br><br>~UNIX/Linux, Vim, Emacs, SEO, Arduino/microcontrollers, mathematics.<br><br>~WordPress, webmaster Autobiographymag.com"],
+                typeSpeed: 0.5,
+                backDelay: 12000,
+                loop: true,
+                // defaults to false for infinite loop
+                loopCount: false,
+                callback: function() {foo();
+                }
+            });
+            function foo() {console.log("Callback");}
         });
     </script>
 
+    <script>
+        $(document).ready(function(){
+
+
+            $(".th").click(function(){
+                $("#descripBox").slideDown(800);
+            }); 
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function(){
+            $(".twitBot").click(function(){
+                $("#descripBox").html("COME WITH ME IF YOU WANT TO LIFT.<br><br>Welcome to Inspirational Arnold, my automated Twitter account. The first of my social media automation projects, Inspirational Arnold was written in Python and communicates with Twitter's API to achieve some of the following tasks:<br><br>");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".webServ").click(function(){
+                $("#descripBox").html("I HAVE A WEBSERVER IN MY BEDROOM LOL...");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".webDev").click(function(){
+                $("#descripBox").html("I MADE THIS WEBSITE TEEHEE");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".redScrap").click(function(){
+                $("#descripBox").html("REDDIT IS FOR NERDS");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".beineApp").click(function(){
+                $("#descripBox").html("SAVING THAT PAPER");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".dotaStats").click(function(){
+                $("#descripBox").html("ABC WUDDU99999999999999P BOY");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".miscStuff").click(function(){
+                $("#descripBox").html("ABC WUDDU101101010101010101010P BOY");
+                });
+            });
+
+        $(document).ready(function(){
+            $(".funStuff").click(function(){
+                $("#descripBox").html("ABC WUDD111111111111111111117P BOY");
+                });
+            });
+
+
+    </script>
+
+
+
+
+
+
+    <script>
+        $(document).foundation();
+    </script>
 
     <script>
         $(function() {
