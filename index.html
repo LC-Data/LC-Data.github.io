@@ -193,9 +193,29 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+
+
     <script>
         $(document).foundation();
     </script>
+
+    <script>
+        $(function() {
+           $("#typed").typed( {
+              strings: ["sudo apt-get install about-nathan<br><br>Aspiring developer with front and back-end experience, RaspberryPi enthusiast and amateur statistician.<br><b>Education:</b><br><br>Queen's University Bachelor of Computing 2012 - 2016<br><br><b>Technical skills include:</b><br><br>~Webdev – Python, HTML5, CSS3, JS (Angular, Bootstrap, jQuery), PHP, additional database management and hosting experience with MySQL and WAMP/LAMP.<br><br>~Back-end – Java, Python, Perl, C(++, #), Prolog, Haskell, R<br><br>~UNIX/Linux, Vim, Emacs, SEO, some knowledge of Arduino/microcontrollers, strong mathematics.<br><br>~WordPress, webmaster Autobiographymag.com"],
+              typeSpeed: 0.5,
+              backDelay: 12000,
+              loop: true,
+              // defaults to false for infinite loop
+              loopCount: false,
+              callback: function() {foo();
+              }
+           });
+           function foo() {console.log("Callback");}
+        });
+    </script>
+
+
     <script>
         $(function() {
             $('a[href*=#]:not([href=#])').click(function() {
