@@ -1,5 +1,5 @@
 .jumbo {
-    background-image: url(../img/spaceBG.jpg);
+    background-image: url("http://i.imgur.com/thB3Drn.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
@@ -99,7 +99,7 @@ ul, ol, dl {
 
 
 #portfolio {
-    background-image: url(../img/port_bg.jpg);
+    background-image: url(""http://i.imgur.com/ESXw3Hn.jpg);
     background-size: cover;
     background-attachment: fixed;
         
