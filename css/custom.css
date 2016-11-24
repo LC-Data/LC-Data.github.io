@@ -124,11 +124,8 @@ ul, ol, dl {
     background-color: rgba(129,130,141,0.95);
     color: #0033cc;
     /*color: white;*/
-    font-size: 2vmin;
-    width: 94%;
-    margin-left: 16%;
-    margin-right: 3%;
-    height: 53vh;
+    font-size: 1.2vmax;
+    height: 25vmax;
     border-left: 10px solid rgba(255, 255, 255, .2);
     border-bottom: 10px solid rgba(255, 255, 255, .2);
 }
