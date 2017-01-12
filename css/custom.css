@@ -199,6 +199,23 @@ ul, ol, dl {
     font-family: georgia, serif;
 }
 
+#topDescripBox {
+    padding: 15px;
+    opacity: 0.85;
+    width: auto;
+    height: 350px;
+    background-color: rgb(151, 122, 137);
+    color: white;
+    border-left: 10px solid rgba(255, 255, 255, .2);
+    border-bottom: 10px solid rgba(255, 255, 255, .2);
+}
+
+#topDescripBox p {
+    text-align: center;
+    font-size: 25px;
+    font-family: georgia, serif;
+}
+
 #top-section-background {
     background: #b1ab9a;
 }
