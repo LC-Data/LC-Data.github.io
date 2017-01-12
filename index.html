@@ -95,6 +95,9 @@
             </div>
         </div>
     </section>
+    
+    <div id="topDescripBox" style="display:none;">abc hello</div>
+    
     <section id="portfolio">
         <div class="row">
             <div class="large-12 columns">
@@ -212,6 +215,18 @@
             function foo() {console.log("Callback");}
         });
     </script>
+
+    <script>
+        $(document).ready(function(){
+
+
+            $(".th").click(function(){
+                $("#topDescripBox").slideDown(800);
+            }); 
+        });
+    </script>
+
+
 
     <script>
         $(document).ready(function(){
