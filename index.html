@@ -58,7 +58,7 @@
             <div class="large-12 columns">
                 <h1>Design and Project Portfolio</h1>
                 <p class="text-center">
-                    <a href="https://github.com/LC-Data/" class="medium button">My GitHub</a>
+                    <a href="https://github.com/LC-Data" class="medium button">My GitHub</a>
                 </p>
 
             </div>
@@ -75,17 +75,17 @@
                 <div>
                     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                         <li>
-                            <img class="th abtMe" src="http://i.imgur.com/or5E2xX.jpg" alt="image1" />
+                            <img src="http://i.imgur.com/or5E2xX.jpg" alt="image1" />
                             <h3 class="text-center">Who am I?</h3>
                             <p>I'm a young guy who feels lucky to have been part of (in my opinion) the first generation to grow up with the internet. I love to code, I love computers, and I love to be one step ahead of the game. Read more about me here!</p>
                         </li>
                         <li>
-                            <img class="th" src="http://i.imgur.com/aknLNGI.jpg" alt="image2" />
+                            <img src="http://i.imgur.com/aknLNGI.jpg" alt="image2" />
                             <h3 class="text-center">My credentials</h3>
                             <p>Explore here for a more in-depth look at what I can do. Information about my educational background, skill set, and specific areas of interest are covered.</p>
                         </li>
                         <li>
-                            <img class="th" src="http://i.imgur.com/BRU1QWn.jpg" />
+                            <img src="http://i.imgur.com/BRU1QWn.jpg" />
                             <h3 class="text-center">What I hope to achieve.</h3>
                             <p>One day I'd like to be able to look back on what I have done and be proud of it. Here I outline my long-term goals and professional aspirations. <!-- I'd like to be an innovator, a creator, and a helper.
                             My goals include contributing to meaningful projects that genuinely help people, I'd like to contribute to the greater good. I want to be able to satisfy my curiousities and learn as much about people and the universe as I possibly can, and I want to have a great time doing it. --></p>
@@ -95,9 +95,6 @@
             </div>
         </div>
     </section>
-    
-    <div id="topDescripBox" style="display:none;">abc hello</div>
-    
     <section id="portfolio">
         <div class="row">
             <div class="large-12 columns">
@@ -127,6 +124,9 @@
                     <li>
                         <img class="th miscStuff" src="http://i.imgur.com/jbHzi0b.jpg" alt="everything else..." />
                     </li>
+                    <!-- <li>
+                        <img class="th funStuff" src="http://i.imgur.com/jbHzi0b.jpg" alt="FUN STUFF!" />
+                    </li> -->
                 </ul>
 
 
@@ -221,18 +221,6 @@
 
 
             $(".th").click(function(){
-                $("#topDescripBox").slideDown(800);
-            }); 
-        });
-    </script>
-
-
-
-    <script>
-        $(document).ready(function(){
-
-
-            $(".th").click(function(){
                 $("#descripBox").slideDown(800);
             }); 
         });
@@ -240,14 +228,6 @@
 
 
     <script>
-        
-        $(document).ready(function(){
-            $(".abtMe").click(function(){
-                $("#topDescripBox").html("<p>HALLO WURLD</p><br>#SAVETHEANIMALS");
-                });
-            });
-        
-        
         $(document).ready(function(){
             $(".twitBot").click(function(){
                 $("#descripBox").html("<p>COME WITH ME IF YOU WANT TO LIFT</p><br>Welcome to Inspirational Arnold, my automated workout inspiration themed Twitter account! The first of my social media automation projects, Inspirational Arnold was written in Python and communicates with Twitter's API to achieve some of the following tasks:<br><br><ul><li>-Automated tweeting at set or random intervals</li><li>-Auto refollow to promote account growth</li><li>-Log activites in command prompt for the current session for real-time tracking of bot activities</li><li>-Retweet tweets from other users containing a given hashtag</li><li>-Various bug handling</li></ul>In his first month Inspirational Arnold accrued just over 500 followers with an uptime of over 90% including maintenance and updates! You can check out IA <a href='http://www.twitter.com/comewithme2lift'>here</a> , and you can peep some of his code <a href='http://www.github.com/LC-Data/ArnoldBot'>here</a> ");
@@ -273,8 +253,7 @@
             });
 
         $(document).ready(function(){
-            $(".
-              ").click(function(){
+            $(".beineApp").click(function(){
                 $("#descripBox").html("<p>An iOS app for franchise managers!</p> During my summer with Beine I contributed to their iOS app coded in objective-C, it is a tool for franchisees to keep track of various metrics their business should be aware of to improve efficiency and save money. <br><br> The app in conjunction with a desktop program helped track and quanitfy a few things including <ul><li>- WiFi usage in restaurants(# of users, minutes spent connected, bandwidth consumed)</li><li>- Loyalty program signups and usage</li><li>- Estimated peak patronage times, days, weeks</li><br><br>Overall the app helped franchisees save thousands of dollars through eliminating paper card loyalty systems and allowing services to be scaled-down appropriately.");
                 });
             });
