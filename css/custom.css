@@ -61,7 +61,8 @@ section {
 
 
 #contact {
-    border-top: solid black 5px;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
     background: #f5d6eb;
     padding-bottom: 30px;
 }
@@ -125,6 +126,8 @@ ul, ol, dl {
 
 
 #about {
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
     background-color: #D1CDC3;
 }
 
