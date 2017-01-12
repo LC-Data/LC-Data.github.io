@@ -61,6 +61,7 @@ section {
 
 
 #contact {
+    border-top: solid black 5px;
     background: #f5d6eb;
     padding-bottom: 30px;
 }
