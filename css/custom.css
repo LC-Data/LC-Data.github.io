@@ -197,4 +197,5 @@ ul, ol, dl {
 
 #top-section-background {
     background: black;
+    border: green 2px;
 }
