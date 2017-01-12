@@ -1,3 +1,7 @@
+.tBG {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .jumbo {
     background-image: url("http://i.imgur.com/thB3Drn.jpg");
     background-size: cover;
@@ -115,7 +119,7 @@ ul, ol, dl {
 
 
 #portfolio h4 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
