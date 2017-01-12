@@ -86,17 +86,17 @@
                 <div>
                     <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                         <li>
-                            <img src="http://i.imgur.com/or5E2xX.jpg" alt="image1" />
+                            <img class="th abtMe" src="http://i.imgur.com/or5E2xX.jpg" alt="image1" />
                             <h3 class="text-center">Who am I?</h3>
                             <p>I'm a young guy who feels lucky to have been part of (in my opinion) the first generation to grow up with the internet. I love to code, I love computers, and I love to be one step ahead of the game. Read more about me here!</p>
                         </li>
                         <li>
-                            <img src="http://i.imgur.com/aknLNGI.jpg" alt="image2" />
+                            <img class="th abtMe2" src="http://i.imgur.com/aknLNGI.jpg" alt="image2" />
                             <h3 class="text-center">My credentials</h3>
                             <p>Explore here for a more in-depth look at what I can do. Information about my educational background, skill set, and specific areas of interest are covered.</p>
                         </li>
                         <li>
-                            <img src="http://i.imgur.com/BRU1QWn.jpg" />
+                            <img class="th abtMe3" src="http://i.imgur.com/BRU1QWn.jpg" />
                             <h3 class="text-center">What I hope to achieve.</h3>
                             <p>One day I'd like to be able to look back on what I have done and be proud of it. Here I outline my long-term goals and professional aspirations. <!-- I'd like to be an innovator, a creator, and a helper.
                             My goals include contributing to meaningful projects that genuinely help people, I'd like to contribute to the greater good. I want to be able to satisfy my curiousities and learn as much about people and the universe as I possibly can, and I want to have a great time doing it. --></p>
@@ -252,29 +252,48 @@
 
 
     <script>
+
+        $(document).ready(function(){
+            $(".abtMe").click(function(){
+                $("#topDescripBox").html("<p>ABC ONE TWO THREE HELLO 1</p> ");
+            });
+        });
+        
+        $(document).ready(function(){
+            $(".abtMe2").click(function(){
+                $("#topDescripBox").html("<p>ABC ONE TWO THREE HELLO 2</p> ");
+            });
+        });
+        
+        $(document).ready(function(){
+            $(".abtMe3").click(function(){
+                $("#topDescripBox").html("<p>ABC ONE TWO THREE HELLO 3</p> ");
+            });
+        });
+        
         $(document).ready(function(){
             $(".twitBot").click(function(){
                 $("#descripBox").html("<p>COME WITH ME IF YOU WANT TO LIFT</p><br>Welcome to Inspirational Arnold, my automated workout inspiration themed Twitter account! The first of my social media automation projects, Inspirational Arnold was written in Python and communicates with Twitter's API to achieve some of the following tasks:<br><br><ul><li>-Automated tweeting at set or random intervals</li><li>-Auto refollow to promote account growth</li><li>-Log activites in command prompt for the current session for real-time tracking of bot activities</li><li>-Retweet tweets from other users containing a given hashtag</li><li>-Various bug handling</li></ul>In his first month Inspirational Arnold accrued just over 500 followers with an uptime of over 90% including maintenance and updates! You can check out IA <a href='http://www.twitter.com/comewithme2lift'>here</a> , and you can peep some of his code <a href='http://www.github.com/LC-Data/ArnoldBot'>here</a> ");
-                });
             });
+        });
 
         $(document).ready(function(){
             $(".webServ").click(function(){
                 $("#descripBox").html("<p>A Personal Webserver From the Comfort of Your Own Home?!</p>I used to think it would be really cool to have my own webserver... so I made one! <br><br>The thumbnail is actually my bedroom, where I run my Apache webserver off of a Raspberry Pi 2 Model B+ (sitting on the stool in the picture!). Using LAMP and running the Raspbian Linux distro I host a mirror of this online portfolio, run my social media bots, and basically hold all of my Game of Thrones episodes locally so I can access them on all of my devices. Occasionally my ISP (Rogers...) likes to block traffic to/from my webserver and send me warnings in the mail, apparently they don't like me using my internet beyond a middle-school level.<br><br>Some relevant links:<br><br><ul><li><a href='http://www.ampps.com/download'>LAMPS</a></li><li><a href='http://www.raspberrypi.org/downloads/raspbian/'>Raspbian Linux Distro</a></li><li><a href='http://www.raspberrypihq.com/how-to-share-a-folder-with-a-windows-computer-from-a-raspberry-pi/'>Local Media Sharing</a>");
-                });
             });
+        });
 
         $(document).ready(function(){
             $(".webDev").click(function(){
                 $("#descripBox").html("<p>I Make Websites!</p> The internet is a fun place, making websites and having one of my own makes me feel like I own a little part of the internet, weird, I know.<br><br> I like to develop using a whole bunch of languages, learning about all of their strengths and weaknesses and unique aspects is eye opening and really changed the way I understand the internet. I have experience using HTML, CSS, Javascript variants and frameworks, PHP, Node.js, Python and more. I webmaster for a client, and have experience with WordPress. Most databases I deal with are SQL-based and I like to play around with the front and back-ends of systems, I fancy myself a bit of a full-stacker.<br><br>Check out the code for this online portfolio <a href='http://ww.github.com/lc-data/LC-Data.github.io'> here!</a>");
-                });
             });
+        });
 
         $(document).ready(function(){
             $(".redScrap").click(function(){
                 $("#descripBox").html("<p>r/Programming's Top Post of the Day!</p> Ever get tired of not being able to easily see top posts from Reddit's r/programming subreddit from specific days? Probably not, but I do. <br><br> I made a simple web crawler that scrapes Reddit's top post of the day from r/programming and allows me to export and save some details about it.<br> More specifically this little tool automatically grabs for me the title of the post I am looking for, a url link to the post, and the user who submitted it.<br><br> It's a handy little tool, and it can be used to scrape data from <i>anywhere</i> on Reddit (or any website really) by tweaking the code a little bit. I made it for r/programming but it just as easily works anywhere else. It saves me time and effort, I don't have to navigate Reddit every day, I don't have to save the links if I like them, I don't even have to open a browser!<br><br>Check out some of the code <a href='http://www.github.com/LC-Data/DailyTopProgrammingPost'>here!</a> And be sure to check out the <a href='http://www.scrapy.org'>Scrapy Framework</a> that made this project possible.");
-                });
             });
+        });
 
         $(document).ready(function(){
             $(".beineApp").click(function(){
