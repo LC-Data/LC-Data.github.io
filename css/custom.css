@@ -194,3 +194,7 @@ ul, ol, dl {
     font-size: 25px;
     font-family: georgia, serif;
 }
+
+#top-section-background {
+    background: black;
+}
