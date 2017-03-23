@@ -9,6 +9,7 @@
     height: 300px;
     padding: 50px 0;
     margin-bottom: 30px;
+    box-shadow: 0px 10px 11px #888888;
 }
 .jumbo h1 {
     color: #fff;
