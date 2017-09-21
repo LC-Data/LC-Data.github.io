@@ -24,45 +24,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-     <script>
-        $(document).ready(function(){
-            $(".th").click(function(){
-                $("#descripBox").slideDown(800);
-            }); 
-        });
-    </script>
-
-    <script>
-        $(document).ready(function(){
-            $(".th").click(function(){
-                $("#descripBox").slideDown(800);
-            }); 
-        });
-    </script>
-
-    <script>
-        $(document).ready(function(){
-            $(".twitBot").click(function(){
-                $("#descripBox").html("<p>COME WITH ME IF YOU WANT TO LIFT</p><br>Welcome to Inspirational Arnold, my automated workout inspiration themed Twitter account! The first of my social media automation projects, Inspirational Arnold was written in Python and communicates with Twitter's API to achieve some of the following tasks:<br><br><ul><li>-Automated tweeting at set or random intervals</li><li>-Auto refollow to promote account growth</li><li>-Log activites in command prompt for the current session for real-time tracking of bot activities</li><li>-Retweet tweets from other users containing a given hashtag</li><li>-Various bug handling</li></ul>In his first month Inspirational Arnold accrued just over 500 followers with an uptime of over 90% including maintenance and updates! You can check out IA <a href='http://www.twitter.com/comewithme2lift'>here</a> , and you can peep some of his code <a href='http://www.github.com/LC-Data/ArnoldBot'>here</a> ");
-            });
-        });
-        $(document).ready(function(){
-            $(".webServ").click(function(){
-                $("#descripBox").html("<p>A Personal Webserver From the Comfort of Your Own Home?!</p>I used to think it would be really cool to have my own webserver... so I made one! <br><br>The thumbnail is actually my bedroom, where I run my Apache webserver off of a Raspberry Pi 2 Model B+ (sitting on the stool in the picture!). Using LAMP and running the Raspbian Linux distro I host a mirror of this online portfolio, run my social media bots, and basically hold all of my Game of Thrones episodes locally so I can access them on all of my devices. Occasionally my ISP (Rogers...) likes to block traffic to/from my webserver and send me warnings in the mail, apparently they don't like me using my internet beyond a middle-school level.<br><br>Some relevant links:<br><br><ul><li><a href='http://www.ampps.com/download'>LAMPS</a></li><li><a href='http://www.raspberrypi.org/downloads/raspbian/'>Raspbian Linux Distro</a></li><li><a href='http://www.raspberrypihq.com/how-to-share-a-folder-with-a-windows-computer-from-a-raspberry-pi/'>Local Media Sharing</a>");
-            });
-        });
-        $(document).ready(function(){
-            $(".webDev").click(function(){
-                $("#descripBox").html("<p>I Make Websites!</p> The internet is a fun place, making websites and having one of my own makes me feel like I own a little part of the internet, weird, I know.<br><br> I like to develop using a whole bunch of languages, learning about all of their strengths and weaknesses and unique aspects is eye opening and really changed the way I understand the internet. I have experience using HTML, CSS, Javascript variants and frameworks, PHP, Node.js, Python and more. I webmaster for a client, and have experience with WordPress. Most databases I deal with are SQL-based and I like to play around with the front and back-ends of systems, I fancy myself a bit of a full-stacker.<br><br>Check out the code for this online portfolio <a href='http://ww.github.com/lc-data/LC-Data.github.io'> here!</a>");
-            });
-        });
-        $(document).ready(function(){
-            $(".redScrap").click(function(){
-                $("#descripBox").html("<p>r/Programming's Top Post of the Day!</p> Ever get tired of not being able to easily see top posts from Reddit's r/programming subreddit from specific days? Probably not, but I do. <br><br> I made a simple web crawler that scrapes Reddit's top post of the day from r/programming and allows me to export and save some details about it.<br> More specifically this little tool automatically grabs for me the title of the post I am looking for, a url link to the post, and the user who submitted it.<br><br> It's a handy little tool, and it can be used to scrape data from <i>anywhere</i> on Reddit (or any website really) by tweaking the code a little bit. I made it for r/programming but it just as easily works anywhere else. It saves me time and effort, I don't have to navigate Reddit every day, I don't have to save the links if I like them, I don't even have to open a browser!<br><br>Check out some of the code <a href='http://www.github.com/LC-Data/DailyTopProgrammingPost'>here!</a> And be sure to check out the <a href='http://www.scrapy.org'>Scrapy Framework</a> that made this project possible.");
-            });
-        });
-
-    </script>
 
 
 </head>
@@ -70,11 +31,11 @@
     <!--[if lt IE 8]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <section class="hero">
+    <section class="hero" >
         <section class="navigation">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="img/sedna-logo.png" alt="@Nathanroane"></a></div>
+                    <div class="logo"><a href="#"><img src="img/sedna-logo.png" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
@@ -97,11 +58,11 @@
                 <div class="col-md-10 col-md-offset-1">
                     <div class="hero-content text-center">
 
-                    <div class="darkener">
+                    <div class="darkener boxShad">
                     <img src="img/head.jpg" style="border-radius: 100%; display: inline-block;float: middle;height: 120px;">
                         <h1>@nathanroane</h1>
-                        <p class="intro">Hello! It looks like you've found my corner of the internet. Here I feature some of my work, as well as a bit of info about myself and who I am. Enjoy!</p>
-                        <a href="https://www.github.com/LC-Data" class="btn btn-fill btn-large btn-margin-right">My Github</a>
+                        <p class="intro">Hello! It looks like you've found my corner of the internet. Here I feature some of my works, as well as a bit of info about myself and what I do. Enjoy!</p>
+                        <a href="#" class="btn btn-fill btn-large btn-margin-right">My Github</a>
                     </div>
                     </div>
                 </div>
@@ -109,33 +70,33 @@
         </div>
         <div class="down-arrow floating-arrow" id="whoIsThisGuy"><a href="#portfolio"><i class="fa fa-angle-down"></i></a></div>
     </section>
-    <section class="intro section-padding">
-        <div class="container">
+    <section class="intro section-padding" >
+        <div class="container" >
             <div class="row">
-                <div class="col-md-6 intro-feature">
+                <div class="col-md-6 intro-feature" >
                     <div class="intro-icon">
                         <span data-icon="?" class="icon"></span>
 
                     </div>
                     <div class="intro-content">
-                        <h5>Who am I?</h5>
-                        <p>I'm a young developer from Toronto, Canada. I pursued an education in Computer Science at Queen's University in Kingston, Ontario and in early 2014 I started working professionally on software and web development projects. I feel lucky to belong to (in my opinion!) the first generation to have grown up with the internet. I'm a tinkerer, an athlete, a developer, and I love computers.</br ><br>
+                        <h5 class="whiteText">Who am I?</h5>
+                        <p class="whiteText">I'm a young developer from Toronto, Canada. I pursued an education in Computer Science at Queen's University in Kingston, Ontario and in early 2014 I started working professionally on software and web development projects. I feel lucky to belong to (in my opinion!) the first generation to have grown up with the internet. I'm a tinkerer, an athlete, a developer, and I love computers.</br ><br>
 
                         I am currently living in Greece in a city called Chalkida located just north of Athens. I'm so grateful to be able to continue working as a developer while having the opportunity to be here and to work with local devs on fun and rewarding projects.<br><br>  
 
-                        Lately I have  delved further than ever before into my passion for programming -- I love learning new frameworks and languages, discovering their unique aspects, and applying them to fun and rewarding challenges. Abstract and "Legacy" languages are starting to pique my interest, COBOL is next on the list. </p>
+                        Lately I have delved further than ever before into my passion for programming -- I love learning new frameworks and languages, discovering their unique aspects, and applying them to fun and rewarding challenges. Abstract and "Legacy" languages are starting to pique my interest, COBOL is next on the list.</p>
                     </div>
                 </div>
                 <div class="col-md-6 intro-feature">
                     <div class="intro-icon">
-                        <span data-icon="?" class="icon"></span>
+                        <span data-icon="&#xe030;" class="icon"></span>
                     </div>
                     <div class="intro-content">
-                        <h5>What am I doing?</h5>
-                        <p>I've been professionally developing since early 2014, working on projects ranging from mobile phone applications, to database management, automation software, and web development. Projects from my professional portfolio can be found <a href="#portfolio">here.</a>
+                        <h5 class="whiteText">What am I doing?</h5>
+                        <p class="whiteText">I've been professionally developing since early 2014, working on projects ranging from mobile phone applications, to database management, automation software, and web development. Projects from my professional portfolio can be found <a href="#portfolio">here.</a>
 
                         <br><br>
-                        Currently, I've taken a more hands-on role approach to development in creating and conducting an outreach program at Ritsona refugee camp outside of Athens, Greece. I've designed a series of classes where I teach coding basics and fundamentals to those affected by the Syrian refugee crisis. It is both challenging and rewarding, but the opportunity to spread the gift of coding here is a unique experience. Read more about my work at Ritsona <a href="#ritsona">here!</a>
+                        Currently, I've taken a more hands-on role approach to development in creating and conducting an outreach program at Ritsona refugee camp outside of Athens, Greece. I've designed a series of classes where I teach coding basics and fundamentals to those affected by the Syrian refugee crisis. It is both challenging and rewarding, but the opportunity to spread the gift of coding here is a unique experience I'm glad to be living it. Read more about my work at Ritsona <a href="#ritsona">here!</a>
 
 
                         <br><br>
@@ -154,8 +115,8 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-6">
                     <div class="feature-list">
-                        <h3>Professional Portfolio</h3>
-                        <p>Latest positions, roles & descriptions.</p>
+                        <h3 class="whiteText">Professional Portfolio</h3>
+                        <p class="whiteText">Latest positions, roles & descriptions.</p>
 
 
 
@@ -163,11 +124,11 @@
                         <ul class="features-stack">
                         	<li class="feature-item">
                                 <div class="feature-icon">
-                                    <span data-icon="&#xe040;" class="icon"></span>
+                                    <span data-icon="&#xe00a;" class="icon"></span>
                                 </div>
                                 <div class="feature-content">
-                                    <h5>United Nations Development Programme</h5>
-                                    <p>Lead Developer - Commission on HIV and the Law Website - <a href="http://www.HIVlawcommission.org" target="_blank"><b>HIVlawcommission.org</b></a>
+                                    <h5 class="whiteText">United Nations Development Programme</h5>
+                                    <p class="whiteText">Lead Developer - Commission on HIV and the Law Website - <a href="http://www.HIVlawcommission.org" target="_blank"><b>HIVlawcommission.org</b></a>
 
                                     <br>
                                     Javascript, PHP, HTML5, CSS
@@ -179,11 +140,11 @@
 
                             <li class="feature-item">
                                 <div class="feature-icon">
-                                    <span data-icon="&#xe040;" class="icon"></span>
+                                    <span data-icon="&#xe03e;" class="icon"></span>
                                 </div>
                                 <div class="feature-content">
-                                    <h5>Director General of the World Health Organization</h5>
-                                    <p>Software/Web Developer - WHO Election Campaign - <br><a href="http://www.DrTedros.com" target="_blank"><b>DrTedros.com</b></a>
+                                    <h5 class="whiteText">Director General of the World Health Organization</h5>
+                                    <p class="whiteText">Software/Web Developer - WHO Election Campaign - <br><a href="http://www.DrTedros.com" target="_blank"><b>DrTedros.com</b></a>
                                     <br>
                                     Python, PHP, HTML5, CSS. </p>
                                 </div>
@@ -194,17 +155,17 @@
                                 </div>
                                 
                                 <div class="feature-content">
-                                    <h5>Lighthouse Relief NGO</h5>
-                                    <p>Developer, Workshop Lead - <br><a href="ligthouserelief.org" target="_blank"><b>Lighthouserelief.org</b></a><br>Java, Python, Javascript(Jquery), CSS, HTML5,...<br>Project going live Sept. 28, 2017 </p>
+                                    <h5 class="whiteText">Lighthouse Relief NGO</h5>
+                                    <p class="whiteText">Developer, Workshop Lead - <br><a href="ligthouserelief.org" target="_blank"><b>Lighthouserelief.org</b></a><br>Java, Python, Javascript(Jquery), CSS, HTML5,...<br>Project going live Sept. 28, 2017 </p>
                                 </div>
                             </li>
                             <li class="feature-item">
                                 <div class="feature-icon">
-                                    <span data-icon="&#xe040;" class="icon"></span>
+                                    <span data-icon="&#xe03c;" class="icon"></span>
                                 </div>
                                 <div class="feature-content">
-                                    <h5>Beine.ca</h5>
-                                    <p>Developer - iOS Application - <br><a href="beine.ca" target="_blank"><b>beine.ca</b></a>
+                                    <h5 class="whiteText">Beine.ca</h5>
+                                    <p class="whiteText">Developer - iOS Application - <br><a href="beine.ca" target="_blank"><b>beine.ca</b></a>
                                     <br>
                                     Obj-C, MySQL</p>
                                 </div>
@@ -231,14 +192,16 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="feature-list">
-                        <h3>Spreading the power of coding at Ritsona Refugee Camp</h3>
-                        <p>I am currently working with Lighthouse Relief, an NGO that provides long-term support to those affected by the Syrian refugee crisis, at Ritsona refugee camp just north of Athens.
+                        <div class="darkenerNoTextShad">
+                        <h3 class="whiteText">Spreading the power of coding at Ritsona Refugee Camp</h3>
+                        <p class="whiteText">I currently find myself working with Lighthouse Relief Organizaiton, an NGO heavily involved in helping individuals affected by and victims of the Syrian refugee crisis, at their Greek location, Ritsona refugee camp just north of Athens.
 
-                        <p> I am currently the organization's sole developer, working on internal software needs, continued development of the Lighthouserelief.org website and leading coding classes at the refugee camp.
+                        <p class="whiteText"> I am currently the Organization's sole developer, working on internal software needs, continued development of the Lighthouserelief.org website and leading coding classes at the refugee camp.
                         </p>
 
-                        <p>This experience has provided me an opportunity to spread the joys(!) and curiosities of coding while helping in the best way I can.
+                        <p class="whiteText">This experience has provided me an opportunity to spread the joys(!) and curiosities of coding while helping in the best way I can.
                         </p>
+                    </p></div>
                     </div>
                 </div>
             </div>
@@ -251,7 +214,7 @@
     <section class="blog-intro section-padding">
         <div class="container">
             <h3>Personal Projects</h3>
-            <p>Below you can find excerpts of code or information abput some of my personal projects. I typically have a few projects at a time on the go, and hope to showcase them more prominently on this website in the future. Current projects include:
+            <p class="whiteText">Below you can find excerpts of code or information from some of my personal projects. I typically have a few projects at a time on the go, and hope to showcase them more prominently on this website in the future. Current projects include:
             
                 Social Media Automation Bots, Twitter Wordcloud Generator, Personal Webserver Hosting, and a Tidal Water Flow Predictor for Chalkida, Greece
             </p>
@@ -275,8 +238,8 @@
                                 </div>
                             </a>
                             <figcaption>
-                            <h2><a href="#" class="blog-category twitBot" data-toggle="tooltip" data-placement="top" data-original-title="'COME WITH ME IF YOU WANT TO POST'">Social Media Bots</a></h2>
-                            <p><a href="#https://github.com/LC-Data/ArnoldBot" class="blog-post-title">Social Media made easy! <i class="fa fa-angle-right"></i></a></p>
+                            <h2 data-toggle="tooltip" data-placement="top" data-original-title="'COME WITH ME IF YOU WANT TO POST'">Social Media Bots</h2>
+                            <p><a class="whiteText" href="https://github.com/LC-Data/ArnoldBot" class="blog-post-title" target="_blank">Social Media made easy! <i class="fa fa-angle-right"></i></a></p>
                             </figcaption>
                         </figure>
                     </article>
@@ -293,8 +256,8 @@
                                 </div>
                             </a>
                             <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="Check out how I stay on top of hot r/programming posts">Reddit Scraper</a></h2>
-                            <p><a href="#https://github.com/LC-Data/DailyTopProgrammingPost" class="blog-post-title">r/programming's top post of the day, every day. <i class="fa fa-angle-right"></i></a></p>
+                            <h2 data-toggle="tooltip" data-placement="top" data-original-title="Check out how I stay on top of hot r /programming posts">Reddit Scraper</h2>
+                            <p><a class="whiteText" href="https://github.com/LC-Data/DailyTopProgrammingPost" class="blog-post-title" target="_blank">r/programming's top post of the day, every day. <i class="fa fa-angle-right"></i></a></p>
                             </figcaption>
                         </figure>
                     </article>
@@ -302,7 +265,7 @@
                 <div class="col-md-4">
                     <article class="blog-post">
                         <figure>
-                            <a href="http://i.imgur.com/3nV1MsH.png" class="single_image">
+                            <a href="#projects" class="single_image">
                                 <div class="blog-img-wrap">
                                     <div class="overlay">
                                         <i class="fa fa-search"></i>
@@ -311,8 +274,8 @@
                                 </div>
                             </a>
                             <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="Read more about how I host my own webservers">Webserver Hosting</a></h2>
-                            <p><a href="#projects" class="blog-post-title">Turn your bedroom in to a server farm! <i class="fa fa-angle-right"></i></a></p>
+                            <h2 data-toggle="tooltip" data-placement="top" data-original-title="Read more about how I host my own webservers">Webserver Hosting</h2>
+                            <p><a class="whiteText" href="#projects" class="blog-post-title">Turn your bedroom in to a server farm! <i class="fa fa-angle-right"></i></a></p>
                             </figcaption>
                         </figure>
                     </article>
@@ -327,23 +290,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                <div style="color:white;"><b>CONTACT NATHAN</b></div>
+                <h2>Contact Me</h2>
+
                     <div class="flexslider">
                         <ul class="slides">
                             <li>
                                 <div class="avatar"><img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Gmail-icon.png" alt="E-mail me!"></div>
                                 <h2>nathanroane@gmail.com</h2>
-                                <p class="author">E-mail: The most reliable way to contact me, send an e-mail!</p>
+                                <p>E-mail: The most reliable way to contact me, send an e-mail!</p>
                             </li>
                             <li>
-                                <div class="avatar"><img src="http://images.all-free-download.com/images/graphiclarge/telephone_receiver_312940.jpg" alt="Tweet me!"></div>
+                                <div class="avatar"><img src="https://cdn.pixabay.com/photo/2017/01/31/14/36/blue-2024619_640.png" alt="Call me maybe?"></div>
                                 <h2>Telephone/Whatsapp</h2>
-                                <p class="author">Call me!<br>In Greece: +30 694 564 2706<br>In Canada: +1 613 985 4554</p>
+                                <p>Call me!<br>In Greece: +30 694 564 2706<br>In Canada: +1 613 985 4554</p>
                             </li>
                             <li>
                                 <div class="avatar"><img src="http://icons.iconarchive.com/icons/danleech/simple/1024/skype-icon.png" alt="Call me, maybe?"></div>
                                 <h2><b>nathanroane</b> or <b>nathanroane@gmail.com</b></h2>
-                                <p class="author">Skype with me by adding the above username(s)!</p>
+                                <p>Skype with me by adding the above username(s)!</p>
                             </li>
                         </ul>
                     </div>
