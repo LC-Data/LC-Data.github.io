@@ -77,14 +77,36 @@ h5 {
 .btn-margin-right {
   margin-right: 20px; }
 
-section.intro, section.features-extra, section.sign-up {
-  background: #fff; 
+section.intro {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+    height: 100%;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#232731, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#232731, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#232731, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#232731, black); /* Standard syntax (must be last) */
+}
+
+
+
+section.sign-up, section.leafy, section.blog  {
+  background-color: black;
+  border-bottom: 1px solid white;
+ }
+
+ section.features-extra{
+  background-size: 100%;
+  background-image: url(https://i.imgur.com/VtOEuqk.jpg);
  }
 
 
-section.features, section.blog-intro, section.blog {
-  background: #F3F4F8;
-  overflow: hidden;  }
+section.features{
+
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,1) 100%), url("https://i.imgur.com/oaBAjsU.jpg?1");
+  overflow: hidden;
+  border-bottom: 1px solid white;
+}
 
 /* ==========================================================================
 Global Styles
@@ -272,7 +294,7 @@ Waypoinsts
 ========================================================================== */
 .wp1, .wp2, .wp3, .wp4, .wp5, .wp6, .wp7, .wp8, .wp9 {
   visibility: hidden;
-  animation-delay: 0.75s }
+  animation-delay: 1s }
 
 .wp2 {
   -webkit-animation-delay: 0.3s;
@@ -352,7 +374,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 550px;
-  background: url("http://i.imgur.com/Nr0n4fg.jpg") center center;
+  background: url("https://i.imgur.com/78Q4v0I.jpg?1");
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -363,7 +385,7 @@ Hero
     margin-bottom: 40px; }
   .hero p.intro {
     color: #fff;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 300;
     margin-bottom: 20px; }
   .hero .hero-content {
@@ -372,28 +394,18 @@ Hero
     padding-bottom: 5% !important;
   }
 
-.darkener {
-  float: middle;
-  width: 100%;
-  !-moz-box-shadow: 1px 2px 10px rgba(0,0,0,1);
-  !-webkit-box-shadow: 1px 2px 10px rgba(0,0,0,1);
-  !box-shadow: 1px 2px 15px rgba(0,0,0,1);
-  background-color: rgba(255,255,255,0.05);
-  background-size: cover;
- text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  padding: 35px;
-  margin-bottom: 15px
 
-}
 
 .navigation {
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out;
   position: fixed;
   width: 100%;
+  height: 100px;                                      /*CHANGE THIS!!!!!!!*/
   z-index: 999; }
 
 .fixed {
+  height: 75px;
   position: fixed;
   background-color: #232731;
   z-index: 999;
@@ -414,6 +426,7 @@ header {
     header a.login {
       margin-right: 20px; }
   header .logo {
+    margin-top: -255px;
     display: inline-block; }
   header ul.primary-nav {
     margin: 0 0 0 75px;
@@ -434,6 +447,7 @@ header {
       header ul.member-actions li a:hover {
         color: #FF5274; }
   header .header-nav {
+    float: right;                                             /*CHANGE THIS!!!!*/
     display: inline-block; }
   header .member-actions {
     position: absolute;
@@ -457,7 +471,7 @@ Intro
 ========================================================================== */
 .intro span.icon {
   font-size: 40px;
-  color: #FF5274;
+  color: red;
   font-weight: bold; }
 
 .intro-icon {
@@ -468,13 +482,27 @@ Intro
   width: 40px; }
 
 .intro-content {
+  padding: 8px;
+  height: 100%;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#232728, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#232728, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#232728, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#232728, black); /* Standard syntax (must be last) */
+  border-top: 2px solid white;
   display: inline-block;
   width: 80%; }
+
+.intro-content p {
+  font-size: 17px;
+  font-weight: 480;
+  }
 
 /* ==========================================================================
 Features-stack
 ========================================================================== */
 .features {
+  border-bottom: 1px solid white;
   position: relative; }
   .features p {
     margin-bottom: 0;
@@ -483,8 +511,8 @@ Features-stack
     margin: 0 0 20px 0; }
   .features span.icon {
     font-size: 35px;
-    color: #FF5274;
-    font-weight: bold; }
+    color: red;
+    font-weight: 900; }
   .features .feature-icon {
     display: inline-block;
     vertical-align: top;
@@ -503,7 +531,8 @@ Features-stack
     display: inline-block;
     width: 80%; }
   .features ul.features-stack {
-    margin-top: 50px; }
+    margin-top: 30px; 
+   }
   .features ul.features-stack li {
     margin-top: 20px;
     padding-bottom: 20px;
@@ -513,8 +542,8 @@ Features-stack
     border-bottom: none; }
   .features .ipad-wrap {
     width: 706px;
-    height: 1502px;
-
+    height: 1500px;
+    overflow: hidden;
     background: url("../img/nathan.jpg") no-repeat center center;
     z-index: 1; }
   .features .iphone-wrap {
@@ -590,8 +619,16 @@ Features-stack
 .blog-intro
 ========================================================================== */
 .blog-intro {
+    border-top: 1px solid white;
+    height: 100%;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#232731, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#232731, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#232731, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#232731, black); /* Standard syntax (must be last) */
   padding-top: 50px; }
   .blog-intro h3 {
+    color: white;
     margin-bottom: 20px; }
   .blog-intro .leftcol {
     padding-right: 100px;
@@ -610,14 +647,15 @@ Features-stack
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out; }
   .blog h2 {
-    font-size: 11px;
-    color: #ACB1B4;
+    font-size: 13px;
+    color: salmon;
     font-weight: 500;
     text-transform: uppercase;
     margin-top: 35px; }
   .blog .btn {
     margin-top: 20px; }
   .blog .blog-img-wrap {
+    border: 1px solid white;
     position: relative;
     overflow: hidden; }
     .blog .blog-img-wrap .overlay {
@@ -659,8 +697,11 @@ Features-stack
 .testimonial-slider
 ========================================================================== */
 .testimonial-slider {
+  width: auto;
+  color: white;
   background: url("../img/testimonials-bg.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover; 
+  }
   .testimonial-slider .avatar {
     width: 82px;
     height: 82px;
@@ -674,7 +715,7 @@ Features-stack
       width: 82px;
       height: auto; }
   .testimonial-slider h2 {
-    color: #fff;
+    color: white;
     font-size: 40px;
     font-weight: 300;
     font-style: italic;
@@ -749,6 +790,7 @@ Sign up form
 To top
 ========================================================================== */
 .to-top {
+  border-bottom: 1px solid white; 
   height: 60px;
   background-color: #495061; }
   .to-top .to-top-wrap {
@@ -775,7 +817,11 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #3D4351;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#232731, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#232731, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#232731, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#232731, black); /* Standard syntax (must be last) */
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -805,11 +851,15 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #373D4A;
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#232731, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#232731, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#232731, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#232731, black); /* Standard syntax (must be last) */
     right: 0;
     width: 40%;
     height: 100%;
-    padding: 142px 0 0 70px; }
+    padding: 100px 0 0 70px; }
     footer .social-share p {
       color: #fff;
       text-transform: uppercase;
@@ -842,7 +892,7 @@ footer {
     footer .social-share a i {
       margin-top: 20px; }
   footer .footer-links {
-    margin: 120px 0 120px 0; }
+    margin: 100px 0 20px 0; }
 
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
@@ -1189,4 +1239,43 @@ you can use the generic selector below, but it's slower:
   padding-right: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/*=====================================================================|
+|             ALL OF MY CUSTOM CLASSES AND NEW STUFF                   |
+======================================================================*/
+
+.whiteText {
+  color: white;
+}
+
+.boxShad {
+  box-shadow: -1px 2px 20px 12px black;
+}
+
+.darkener {
+  float: middle;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  background-size: cover;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  padding: 35px;
+  margin-bottom: 15px
+}
+
+
+.darkenerNoTextShad {
+  float: middle;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  background-size: cover;
+  padding: 35px;
+  margin-bottom: 15px
+}
+
+#contactTitle {
+  display: inline-block;
+  padding-bottom: 200px;
+  color: white;
+  float: left;
 }
