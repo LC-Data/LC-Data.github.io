@@ -80,12 +80,9 @@ h5 {
 section.intro {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-    height: 100%;
-    background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#232731, black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#232731, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#232731, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#232731, black); /* Standard syntax (must be last) */
+  height: 100%;
+  background-image: url(https://static.pexels.com/photos/355988/pexels-photo-355988.jpeg); /*LIGHTBULB IMAGE*/
+  background-size: 100%;
 }
 
 
@@ -97,13 +94,13 @@ section.sign-up, section.leafy, section.blog  {
 
  section.features-extra{
   background-size: 100%;
-  background-image: url(https://i.imgur.com/VtOEuqk.jpg);
+  background-image: url(https://i.imgur.com/VtOEuqk.jpg); /*MAP IMAGE FOR RITSONA*/
  }
 
 
 section.features{
 
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,1) 100%), url("https://i.imgur.com/oaBAjsU.jpg?1");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,1) 100%), url("https://i.imgur.com/oaBAjsU.jpg?1"); /*TREES IMAGE*/
   overflow: hidden;
   border-bottom: 1px solid white;
 }
@@ -374,8 +371,8 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 550px;
-  background: url("https://i.imgur.com/78Q4v0I.jpg?1");
-  background-size: cover;
+  background: url("https://i.imgur.com/q29tyNs.jpg");   /*NYC SKYLINE IMAGE*/
+  background-size: 100%;
   position: relative; }
   .hero .down-arrow a {
     color: #fff; }
@@ -484,11 +481,8 @@ Intro
 .intro-content {
   padding: 8px;
   height: 100%;
-    background: black; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#232728, black); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#232728, black); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#232728, black); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#232728, black); /* Standard syntax (must be last) */
+  background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(50,50,50,0.8)), to(rgba(0,0,0,0.5)), color-stop(.5,#333333));
   border-top: 2px solid white;
   display: inline-block;
   width: 80%; }
@@ -505,7 +499,7 @@ Features-stack
   border-bottom: 1px solid white;
   position: relative; }
   .features p {
-    line-height: 1.3;
+    line-height: 1.2;
     margin-bottom: 0;
     padding-bottom: 0; }
   .features h3 {
@@ -1279,4 +1273,12 @@ you can use the generic selector below, but it's slower:
   padding-bottom: 200px;
   color: white;
   float: left;
+}
+
+.smallLineSpace {
+  line-height: 1;
+}
+
+.opacityHalf {
+  opacity: 0.5;
 }
