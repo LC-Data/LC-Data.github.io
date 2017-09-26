@@ -25,6 +25,13 @@
 		padding-left: 25px;
 	}
 
+	.hero {
+		padding-top: 20%;
+	}
+	.navigation {
+		margin-top: -20%;
+	}
+
 	.hero .hero-content {
 		padding-top: 20%;
 	}
@@ -236,6 +243,15 @@
 	}
 
 	@media screen and (max-width:640px) {
+		
+
+		.hero {
+			padding-top: 20%;
+		}
+		.navigation {
+		margin-top: -20%;
+		}
+
 		footer ul.footer-group {
 			border-top: none;
 		}
@@ -259,6 +275,19 @@
 	}
 
 	@media screen and (max-width:480px) {
+		
+
+		.hero {
+			padding-top: 20%;
+		}
+		.navigation {
+		margin-top: -20%;
+		}
+		.navigation {
+			padding-top: -20%;
+		}
+
+
 		.hero .hero-content {
 			padding-top: 20%;
 		}
