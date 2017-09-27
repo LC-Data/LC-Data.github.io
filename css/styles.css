@@ -390,7 +390,7 @@ Hero
   -o-background-size:cover;
   background-size:cover;
   background-position:center;
-  background: url("https://i.imgur.com/q29tyNs.jpg");   /*NYC SKYLINE IMAGE*/
+  background-image: url(https://static.pexels.com/photos/34578/pexels-photo.jpg); /*TOP IMAGE*/
  }
   .hero .down-arrow a {
     color: #fff; }
@@ -420,6 +420,7 @@ Hero
   z-index: 999; }
 
 .fixed {
+  color: black;
   margin-top: -13px;
   border-bottom: 1px solid white;
   height: 75px;
@@ -427,6 +428,12 @@ Hero
   background-color: #232731;
   z-index: 999;
   width: 100%; }
+
+.fixed ul.primary-nav li a {
+        color: white;
+        padding-right: 25px; }
+        header ul.primary-nav li a:hover {
+          color: #FF5274; }
 
 header {
   height: 5%;
@@ -451,7 +458,7 @@ header {
     header ul.primary-nav li {
       display: inline; }
       header ul.primary-nav li a {
-        color: #fff;
+        color: black;
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
           color: #FF5274; }
