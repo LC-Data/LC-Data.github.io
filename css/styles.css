@@ -416,8 +416,12 @@ Hero
   transition: all 300ms ease-in-out;
   position: fixed;
   width: 100%;
-  height: 100px;                                      /*CHANGE THIS!!!!!!!*/
+  height: 100px;                                      
   z-index: 999; }
+
+ .navigation header {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.25); padding: 50px 0px;
+}
 
 .fixed {
   color: white;
