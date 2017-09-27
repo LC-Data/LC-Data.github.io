@@ -420,7 +420,7 @@ Hero
   z-index: 999; }
 
 .fixed {
-  color: black;
+  color: white;
   margin-top: -13px;
   border-bottom: 1px solid white;
   height: 75px;
