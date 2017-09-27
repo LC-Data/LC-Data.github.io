@@ -429,6 +429,10 @@ Hero
   z-index: 999;
   width: 100%; }
 
+.fixed .logo a {
+  color: white;
+}
+
 .fixed ul.primary-nav li a {
         color: white;
         padding-right: 25px; }
