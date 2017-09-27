@@ -395,7 +395,7 @@ Hero
   .hero .down-arrow a {
     color: #fff; }
   .hero h1 {
-    font-size: 45px;
+    font-size: 6vh;
     color: #fff;
     margin-bottom: 40px; }
   .hero p.intro {
