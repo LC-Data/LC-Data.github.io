@@ -1322,3 +1322,7 @@ you can use the generic selector below, but it's slower:
 .opacityHalf {
   opacity: 0.5;
 }
+
+.whitened {
+  background-color: rgba(255,255,255,0.5);
+}
