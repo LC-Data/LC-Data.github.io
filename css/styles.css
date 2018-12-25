@@ -7,7 +7,7 @@ Typography
 p {
   font-size: 15px;
   line-height: 29px;
-  color: rgba(28, 54, 83, 0.9);
+  color: rgba(28, 54, 83, 0.85);
   padding-bottom: 20px; }
 
 h1 {
@@ -42,7 +42,7 @@ h5 {
 .btn:hover, .btn:focus {
   color: #fff;
   border-color: #FF5274;
-  background-color: #FF5274; }
+  background-color: #FF5272; }
 
 .btn-white {
   font-size: 13px;
