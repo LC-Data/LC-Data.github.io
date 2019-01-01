@@ -107,6 +107,8 @@ section.sign-up, section.leafy, section.blog  {
  }
 
  section.features-extra2{
+  height: 550px;
+  border-top: 1px solid white;
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
