@@ -106,6 +106,16 @@ section.sign-up, section.leafy, section.blog  {
   background-image: url(https://i.imgur.com/VtOEuqk.jpg); /*MAP IMAGE FOR RITSONA*/
  }
 
+ section.features-extra2{
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  background-image: url("../img/hackground.jpg"); /*MAP IMAGE FOR RITSONA*/
+ }
+
 
 section.features{
   background-repeat:no-repeat;
